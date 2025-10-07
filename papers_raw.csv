@@ -1,299 +1,303 @@
-session No.,session_theme(proxy_subcommittee),paper no.,paper title,first author country,last author country,page_index
-Session 2,Processors ,2.1,“Zen 5”: The AMD High-Performance 4nm x86-64 Microprocessor,United States,India,19
-Session 2,Processors ,2.2,IBM Telum II: Next Generation 5.5GHz Microprocessor with,United States,United States,19
-Session 2,Processors ,2.3,"Granite Rapids-D: Intel Xeon 6 SoC for vRAN, Edge, Networking,",India,United States,19
-Session 2,Processors ,2.4,"A 300MB SRAM, 20Tb/s Bandwidth Scalable Heterogenous 2.5D",India,United States,19
-Session 2,Processors ,2.5,A 16nm 5.7TOPS CNN Processor Supporting Bi-Directional FPN,Taiwan,Taiwan,20
-Session 2,Processors ,2.6,1.78mJ/Frame 373fps 3D GS Processor Based on Shape-Aware,China,China,20
-Session 2,Processors ,2.7,IRIS: An 8.55mJ/frame Spatial Computing SoC for Interactable,Korea,Korea,20
-Session 2,Processors ,2.8,A 210fps Image Signal Processor for 4K Ultra HD True Video,Taiwan,United States,20
-Session 2,Processors ,2.9,STEP: An 8K-60fps Space-Time Resolution-Enhancement,Taiwan,Taiwan,20
-Session 2,Processors ,2.1,A 0.52mJ/Frame 107fps Super-Resolution Processor Exploiting,China,China,20
-Session 3,Processors ,3.1,"A 121.3dB-DR, 115dB-PSNR, Digital-Input Capacitive-Feedback",Taiwan,Taiwan,21
-Session 3,Processors ,3.2,A 36V Current-Balancing Instrumentation Ampliﬁer with ±24V,China,China,21
-Session 3,Processors ,3.3,A Passive Switched-Capacitor-Based Multimode Ampliﬁer with a,Germany,Germany,21
-Session 3,Processors ,3.4,A CMOS Operational Ampliﬁer Achieving ±5.8μV 3σ Offset and,China,Netherlands,21
-Session 4,Analog Techniques ,4.1,A 12.8GS/s Sub-Sampling ADC Front-End with 38GHz Input,Netherlands,France,22
-Session 4,Analog Techniques ,4.2,A 1.8-to-3.0GHz Fully Integrated All-In-One CMOS Frequency,China,United States,22
-Session 4,Analog Techniques ,4.3,"A 0.36nW, 820μm2, 32kHz Conduction-Angle-Adaptive Crystal",China,China,22
-Session 4,Analog Techniques ,4.4,A 0.36nW/0.9V 32kHz Crystal Oscillator Using Analog Regulation,Germany,Germany,22
-Session 4,Analog Techniques ,4.5,A 0.4μW/MHz Reference-Replication-Based RC Oscillator with,China,China,22
-Session 4,Analog Techniques ,4.6,"A 0.8V, 31ppm/°C, -40dB DC-to-GHz Power-Supply-Rejection",Taiwan,Taiwan,22
-Session 5,Analog Techniques ,5.1,A GaN SLCG-Doherty-Continuum Power Ampliﬁer Achieving >38%,China,China,23
-Session 5,Analog Techniques ,5.2,Spatial-Temporal Direct-Digital Beamforming Power Ampliﬁer,China,China,23
-Session 5,Analog Techniques ,5.3,A 56-to-64GHz Linear Power Ampliﬁer with 30.2dBm Psat and,China,China,23
-Session 5,Analog Techniques ,5.4,A 22nm FDSOI CMOS-Based Compact 3-Stack Doherty Power,Korea,Korea,23
-Session 5,Analog Techniques ,5.5,An Ultra-Compact Wideband Load-Insensitive Complex-Cascode,Switzerland,Switzerland,23
-Session 5,Analog Techniques ,5.6,A Power-Efﬁcient CORDIC-less Digital Polar Transmitter Using 1b,Japan,Japan,24
-Session 5,Analog Techniques ,5.7,"A 4.7GHz, 27.7dBm Pout, 37.8% PAE, 5.8° AM-PM Distortion",China,China,24
-Session 5,Analog Techniques ,5.8,A 20W CMOS/LDMOS All-Digital Transmitter with Dynamic,Netherlands,Germany,24
-Session 5,Analog Techniques ,5.9,A 21-to-31GHz DPD-less Quadrature RFDAC with Invariant,China,China,24
-Session 5,Analog Techniques ,5.1,A 3.5mW mm-Wave Low-Noise Active Bandpass Filter Employing,United States,United States,24
-Session 5,Analog Techniques ,5.11,A Blocker-Tolerant mm-Wave Low-Noise Ampliﬁer Utilizing,United States,United States,24
-Session 6,Imagers and Displays ,6.1,A 3-Stacked Hybrid-Shutter CMOS Image Sensor with Switchable,Korea,Korea,25
-Session 6,Imagers and Displays ,6.2,An Asynchronous 160×90 Flash LiDAR Sensor with Dynamic,Korea,Korea,25
-Session 6,Imagers and Displays ,6.3,SPAD Flash LiDAR with Chopped Analog Counter for 76m Range,Korea,Korea,25
-Session 6,Imagers and Displays ,6.4,A 400×400 3.24μm 117dB-Dynamic-Range 3-Layer Stacked,United States,United States,25
-Session 6,Imagers and Displays ,6.5,A 25.2Mpixel 120frames/s Full-Frame Global-Shutter CMOS,Japan,Japan,26
-Session 6,Imagers and Displays ,6.6,A 320×256 6.9mW 2.2mK-NETD 120.4dB-DR LW-IRFPA with,China,China,26
-Session 6,Imagers and Displays ,6.7,A 10b Source-Driver IC with All-Channel Automatic Offset,Korea,Korea,26
-Session 6,Imagers and Displays ,6.8,A Real-Time Pixel-Compensated Source-Driver IC with,Korea,Korea,26
-Session 6,Imagers and Displays ,6.9,A Compact 10b Source Driver IC with Delta-Sigma Pulse Width,Korea,Korea,26
-Session 6,Imagers and Displays ,6.1,A 10.5mW Automotive Touch AFE IC Featuring Radiated EMI,Korea,Korea,26
-Session 7,Ultra-High-Speed Wireline ,7.1,A 212.5Gb/s DSP-Based PAM-4 Transceiver with 50dB Loss,Taiwan,United States,27
-Session 7,Ultra-High-Speed Wireline ,7.2,A 2.2pJ/b 212.5Gb/s PAM-4 Transceiver with >46dB Reach in 5nm,United States,Canada,27
-Session 7,Ultra-High-Speed Wireline ,7.3,A 1.11pJ/b 224Gb/s XSR Receiver with Slice-Based CTLE and,China,China,27
-Session 7,Ultra-High-Speed Wireline ,7.4,A 112Gb/s DSP-Based PAM-4 Receiver with an LC-Resonator-,United States,Taiwan,27
-Session 7,Ultra-High-Speed Wireline ,7.5,A 353mW 112Gb/s Discrete Multitone Wireline Receiver Datapath,Korea,Switzerland,28
-Session 7,Ultra-High-Speed Wireline ,7.6,A 2.06pJ/b 106.25Gb/s PAM-4 Receiver with 3-Tap FFE and 1-Tap,Taiwan,Taiwan,28
-Session 7,Ultra-High-Speed Wireline ,7.7,"A 50Gb/s Burst-Mode NRZ Receiver with 5-Tap FFE, 7-Tap DFE",China,China,28
-Session 7,Ultra-High-Speed Wireline ,7.8,A Reference-less CDR Using SAR-Based Frequency-Acquisition,China,China,28
-Session 7,Ultra-High-Speed Wireline ,7.9,A 60Gb/s NRZ Burst-Mode CDR with Cross-Injection Locking and,China,China,28
-Session 7,Ultra-High-Speed Wireline ,7.1,An 8-to-28GHz 8-Phase Clock Generator Using Dual-Feedback,China,China,28
-Session 2,Ultra-High-Speed Wireline ,2.5,A 16nm 5.7TOPS CNN Processor Supporting Bi-Directional FPN,,,29
-Session 2,Ultra-High-Speed Wireline ,2.6,1.78mJ/Frame 373fps 3D GS Processor Based on Shape-Aware,,,29
-Session 2,Ultra-High-Speed Wireline ,2.7,IRIS: An 8.55mJ/frame Spatial Computing SoC for Interactable,,,29
-Session 2,Ultra-High-Speed Wireline ,2.9,STEP: An 8K-60fps Space-Time Resolution-Enhancement,,,29
-Session 4,Ultra-High-Speed Wireline ,4.2,A 1.8-to-3.0GHz Fully Integrated All-In-One CMOS Frequency,,,29
-Session 4,Ultra-High-Speed Wireline ,4.3,"A 0.36nW, 820μm2, 32kHz Conduction-Angle-Adaptive Crystal",,,29
-Session 6,Ultra-High-Speed Wireline ,6.1,A 3-Stacked Hybrid-Shutter CMOS Image Sensor with Switchable,,,29
-Session 7,Ultra-High-Speed Wireline ,7.2,A 2.2pJ/b 212.5Gb/s PAM-4 Transceiver with >46dB Reach in 5nm,,,29
-Session 7,Ultra-High-Speed Wireline ,7.4,A 112Gb/s DSP-Based PAM-4 Receiver with an LC-Resonator-,,,29
-Session 7,Ultra-High-Speed Wireline ,7.6,A 2.06pJ/b 106.25Gb/s PAM-4 Receiver with 3-Tap FFE and 1-Tap,,,29
-Session 8,Ultra-High-Speed Wireline ,8.8,Fine-Grained Spatial and Temporal Thermal Proﬁling of a 16nm,,,29
-Session 8,Ultra-High-Speed Wireline ,8.9,An On-Cell Monitoring and Balancing System with Near-Field,,,30
-Session 9,Ultra-High-Speed Wireline ,9.6,A 6.78MHz Single-Stage Regulating Rectiﬁer with Dual Outputs,,,30
-Session 10,Ultra-High-Speed Wireline ,10.1,A 77GHz Hybrid TDMA-MIMO Phased-Array Radar with 186m,,,30
-Session 10,Ultra-High-Speed Wireline ,10.5,A 28nm Multimode Multiband RF Transceiver with Harmonic-,,,30
-Session 13,Ultra-High-Speed Wireline ,13.2,An 8.62μW 75dB-DRSoC End-to-End Spoken-Language-,,,30
-Session 13,Ultra-High-Speed Wireline ,13.3,A Cryo-BiCMOS Controller for 9Be+-Trapped-Ion-Based Quantum,,,30
-Session 13,Ultra-High-Speed Wireline ,13.4,Xiling: Cryo-CMOS 18-bit Dual-DAC Manipulator with 4.6μV,,,30
-Session 14,Ultra-High-Speed Wireline ,14.3,A 28nm 17.83-to-62.84TFLOPS/W Broadcast-Alignment Floating-,,,30
-Session 16,Ultra-High-Speed Wireline ,16.1,Tomahawk5: 51.2Tb/s 5nm Monolithic Switch Chip for AI/ML,,,30
-Session 16,Ultra-High-Speed Wireline ,16.2,RNGD: A 5nm Tensor-Contraction Processor for Power-Efﬁcient,,,30
-Session 8,Ultra-High-Speed Wireline ,8.1,Dynamic Guard-Band Features of the IBM zNext System,Germany,India,31
-Session 8,Ultra-High-Speed Wireline ,8.2,Run-Time Power Management System by On-Die Power Sensor,Taiwan,United States,31
-Session 8,Ultra-High-Speed Wireline ,8.3,A Dynamically Reconﬁgurable Digital-Integrated,United States,United States,31
-Session 8,Ultra-High-Speed Wireline ,8.4,"A 4GHz, 0.69%-Accuracy Voltage-Droop Detector with Multiple",Korea,Korea,31
-Session 8,Ultra-High-Speed Wireline ,8.5,A Command-Aware Hybrid LDO for Advanced HBM Interfaces with,Korea,Korea,32
-Session 8,Ultra-High-Speed Wireline ,8.6,A 0.024mm2 All-Digital Fractional Output Divider with 257fs,China,China,32
-Session 8,Ultra-High-Speed Wireline ,8.7,A Dual VDD-Temperature Sensor Employing Sensor Fusion with,United States,United States,32
-Session 8,Ultra-High-Speed Wireline ,8.8,Fine-Grained Spatial and Temporal Thermal Proﬁling of a 16nm,United States,United States,32
-Session 8,Ultra-High-Speed Wireline ,8.9,An On-Cell Monitoring and Balancing System with Near-Field,United Kingdom,United Kingdom,32
-Session 9,Ubiquitous Power Delivery ,9.1,An 85-to-230VAC to 3.3-to-4.6VDC 1.52W Capacitor-Drop,China,China,33
-Session 9,Ubiquitous Power Delivery ,9.2,A 400MHz Symbol-Power-Tracking (SPT) Supply Modulator with,United States,United States,33
-Session 9,Ubiquitous Power Delivery ,9.3,A 74W/48V Monolithic-GaN Integrated Adjustable Multilevel,United States,United States,33
-Session 9,Ubiquitous Power Delivery ,9.4,A 102ns/V 94.3%-Peak-Efﬁciency Symbol-Power-Tracking Supply,China,China,33
-Session 9,Ubiquitous Power Delivery ,9.5,"A Sub-1V, 50mV Dropout LDO Using Pseudo-Impedance Buffer",Korea,Korea,33
-Session 9,Ubiquitous Power Delivery ,9.6,A 6.78MHz Single-Stage Regulating Rectiﬁer with Dual Outputs,China,United States,33
-Session 9,Ubiquitous Power Delivery ,9.7,A 6.78MHz 94.2% Peak Efﬁciency Class-E Transmitter with,China,China,34
-Session 9,Ubiquitous Power Delivery ,9.8,A 50W 98%-Efﬁciency High-Power Wireless-Charging System,Korea,Korea,34
-Session 9,Ubiquitous Power Delivery ,9.9,A Bi-Directional Dual-Path Boost-48V-Buck Hybrid Converter for,China,China,34
-Session 9,Ubiquitous Power Delivery ,9.1,A 93%-Peak-Efﬁciency Battery-Input 12-to-36V-Output,China,China,34
-Session 9,Ubiquitous Power Delivery ,9.11,A 98.3%-Peak-Efﬁciency Single-Mode Hybrid Buck-Boost,China,China,34
-Session 10,Transceiver Chipsets for Communication and Radar ,10.1,A 77GHz Hybrid TDMA-MIMO Phased-Array Radar with 186m,China,China,35
-Session 10,Transceiver Chipsets for Communication and Radar ,10.2,A 132-to-148GHz CMOS 4TX-4RX FMCW Radar Transceiver Array,China,China,35
-Session 10,Transceiver Chipsets for Communication and Radar ,10.3,A D-Band 2D-Scalable 4×4 Active Reﬂective Relay with,Switzerland,Switzerland,35
-Session 10,Transceiver Chipsets for Communication and Radar ,10.4,A 2-TRX IR-UWB Transceiver with Shared Antennas Supporting,Korea,Korea,35
-Session 10,Transceiver Chipsets for Communication and Radar ,10.5,A 28nm Multimode Multiband RF Transceiver with Harmonic-,China,Singapore,35
-Session 11,RF and mm-Wave Wireless Receivers ,11.1,A 256-Element Ka-Band CMOS Phased-Array Receiver Using,Japan,Japan,36
-Session 11,RF and mm-Wave Wireless Receivers ,11.2,A Blocker-Tolerant Receiver with VCO-Based Non-Uniform,United States,Canada,36
-Session 11,RF and mm-Wave Wireless Receivers ,11.3,A Compact Full-Duplex Receiver with Wideband Multi-Domain,China,China,36
-Session 11,RF and mm-Wave Wireless Receivers ,11.4,A Gm-C RF Quadrature-Current-Generation Technique with 40dB,China,China,36
-Session 11,RF and mm-Wave Wireless Receivers ,11.5,A 200MHz-BW Blocker-Tolerant Receiver with Fifth-Order,China,China,36
-Session 12,Innovations from Outside the (ISSCC’s) Box ,12.1,Circuits that Solve Optimization Problems by Exploiting Physics,United States,United States,37
-Session 12,Innovations from Outside the (ISSCC’s) Box ,12.2,p-Circuits: Neither Digital nor Analog,United States,United States,37
-Session 12,Innovations from Outside the (ISSCC’s) Box ,12.3,Reversing Scattering to Perform Deep-Tissue Optical Imaging and,United States,United States,37
-Session 12,Innovations from Outside the (ISSCC’s) Box ,12.4,Skin-Inspired Electronics: An Emerging Sensing and Computing,United States,United States,37
-Session 13,Cool Computation Circuits ,13.1,A 0.22mm2 161nW Noise-Robust Voice-Activity Detection Using,China,China,38
-Session 13,Cool Computation Circuits ,13.2,An 8.62μW 75dB-DRSoC End-to-End Spoken-Language-,Switzerland,Switzerland,38
-Session 13,Cool Computation Circuits ,13.3,A Cryo-BiCMOS Controller for 9Be+-Trapped-Ion-Based Quantum,Germany,Japan,38
-Session 13,Cool Computation Circuits ,13.4,Xiling: Cryo-CMOS 18-bit Dual-DAC Manipulator with 4.6μV,China,China,38
-Session 13,Cool Computation Circuits ,13.5,An 18.5μW/qubit Cryo-CMOS Charge-Readout IC Demonstrating,France,France,38
-Session 13,Cool Computation Circuits ,13.6,A Via-Programmable DNN-Processor Fabrication Toward 1/40th,Japan,Japan,38
-Session 14,Compute-In-Memory ,14.1,A 22nm 104.5TOPS/W μ-NMC-Δ-IMC Heterogeneous STT-MRAM,Taiwan,Taiwan,39
-Session 14,Compute-In-Memory ,14.2,"A 16nm 216kb, 188.4TOPS/W and 133.5TFLOPS/W Microscaling",Taiwan,United States,39
-Session 14,Compute-In-Memory ,14.3,A 28nm 17.83-to-62.84TFLOPS/W Broadcast-Alignment Floating-,China,China,39
-Session 14,Compute-In-Memory ,14.4,A 51.6TFLOPS/W Full-Datapath CIM Macro Approaching Sparsity,China,China,39
-Session 14,Compute-In-Memory ,14.5,A 28nm 192.3TFLOPS/W Accurate/Approximate Dual-Mode-,China,China,40
-Session 14,Compute-In-Memory ,14.6,A 28nm 64kb Bit-Rotated Hybrid-CIM Macro with an Embedded,China,China,40
-Session 14,Compute-In-Memory ,14.7,"NeuroPilot: A 28nm, 69.4fJ/node and 0.22ns/node, 32×32",China,China,40
-Session 15,Compute-In-Memory ,15.1,A 3.9mW 200words/min Neural Signal Processor in Speech,Taiwan,Taiwan,41
-Session 15,Compute-In-Memory ,15.2,A 1024-Channel 0.00029mm2/ch 74nW/ch Online Spatial,Netherlands,United States,41
-Session 15,Compute-In-Memory ,15.3,A 65nm Uncertainty-Quantiﬁable Ventricular Arrhythmia,United States,United States,41
-Session 15,Compute-In-Memory ,15.4,A Neuroprosthetic SoC with Sensory Feedback Featuring,Canada,Taiwan,41
-Session 15,Compute-In-Memory ,15.5,Event-Based Spatially Zooming Neural Interface IC with,Canada,Canada,42
-Session 15,Compute-In-Memory ,15.6,A 3.47 NEF 175.2dB FOMS Direct Digitization Front-End Featuring,Switzerland,United States,42
-Session 15,Compute-In-Memory ,15.7,A 4.6μW 3.3-NEF Biopotential Ampliﬁer with 133VPP,Korea,United States,42
-Session 16,Invited Industry ,16.1,Tomahawk5: 51.2Tb/s 5nm Monolithic Switch Chip for AI/ML,United States,United States,43
-Session 16,Invited Industry ,16.2,RNGD: A 5nm Tensor-Contraction Processor for Power-Efﬁcient,Korea,Korea,43
-Session 16,Invited Industry ,16.3,An On-Device Generative AI Focused Neural Processing Unit in,Korea,Korea,43
-Session 16,Invited Industry ,16.4,SambaNova SN40L: A 5nm 2.5D Dataﬂow Accelerator With Three,United States,United States,43
-Session 17,Hardware Security ,17.1,Sensor-Less Laser Voltage-Probing Attack Detection via,Singapore,China,44
-Session 17,Hardware Security ,17.2,A 28nm 4.05μJ/Encryption 8.72kHMul/s Reconﬁgurable,China,China,44
-Session 17,Hardware Security ,17.3,A 30.4GOPS/mW MK-CKKS Processor for Secure Multi-Party,Taiwan,Taiwan,44
-Session 17,Hardware Security ,17.4,An Efﬁcient Vth-Tilting PUF Design in 3nm GAA and 8nm FinFET,Korea,Korea,44
-Session 17,Hardware Security ,17.5,An Eye-Opening Arbiter PUF for Fingerprint Generation Using,Germany,Germany,44
-Session 17,Hardware Security ,17.6,A 100MHz Self-Calibrating RC Oscillator Capable of Clock-Glitch,United States,United States,44
-Session 18,Noise-Shaping and SAR-Based ADCs ,18.1,A Fully Dynamic Noise-Shaping SAR ADC Achieving 120dB SNDR,China,China,45
-Session 18,Noise-Shaping and SAR-Based ADCs ,18.2,A 12.2μW 99.6dB-SNDR 184.8dB-FoMS DT Zoom PPD ΔΣM with,China,China,45
-Session 18,Noise-Shaping and SAR-Based ADCs ,18.3,"A 93.3dB SNDR, 180.4dB FoMS",China,China,45
-Session 18,Noise-Shaping and SAR-Based ADCs ,18.4,A 184.8dB FoMS 1.6MS/s Incremental Noise-Shaping Pipeline,China,China,45
-Session 18,Noise-Shaping and SAR-Based ADCs ,18.5,A Rail-to-Rail 3rd-Order Noise-Shaping SAR ADC Achieving,China,China,46
-Session 18,Noise-Shaping and SAR-Based ADCs ,18.6,An Easy-Drive 16MS/s Pipelined-SAR ADC Using Split,China,China,46
-Session 18,Noise-Shaping and SAR-Based ADCs ,18.7,A 70dB SNDR 80MHz BW Filter-Embedded Pipeline-SAR ADC,China,China,46
-Session 18,Noise-Shaping and SAR-Based ADCs ,18.8,A Cryo-CMOS 800MS/s 7b CI-SAR with only 4fF Input Capacitance,Belgium,Belgium,46
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.1,A PVT-Robust 5.5GHz Fractional-N Cascaded RO-Based Digital,China,Portugal,47
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.2,"A 96fsrms-Jitter, -70.6dBc-Fractional-Spur Cascaded PLL",Japan,Japan,47
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.3,A Fractional-N PLL with 34fsrms Jitter and -255.5dB FoM Based,Taiwan,Taiwan,47
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.4,An 8.1-to-9.9GHz Single-Core Pseudo-Series-Resonance,Ireland,United Kingdom,47
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.5,A Differential Series-Resonance CMOS VCO with,China,China,47
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.6,A 60GHz I/Q-Calibrated SSB-Mixer-Based LO with Sub-ns Settling,Korea,Korea,48
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.7,A 27GHz Fractional-N Sub-Sampling PLL Achieving 57.9fsrms,China,Portugal,48
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.8,A 0.65V-VDD 10.4-to-11.8GHz Fractional-N Sampling PLL,China,China,48
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.9,"An 11-to-16.4GHz, 3.4GHz/μs-Slope, 5.32GHz-Chirp-Bandwidth,",China,China,48
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.1,A 4.6GHz 63.3fsrms PLL-XO Co-Design Using a Self-Aligned,Switzerland,Switzerland,48
-Session 19,Frequency Synthesizers and Series-Resonance VCOs ,19.11,A 13GHz Charge-Pump PLL Achieving 15.8fsrms Integrated Jitter,China,China,48
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.1,A 3.5×3.5mm2 1.47mW/ch 16-Channel MSS-CMOS,Japan,United States,49
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.2,"A 67μW/channel, 0.13nW/synapse/b Nose-on-a-Chip for",China,Taiwan,49
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.3,An RFID-Inspired One-Step Packaged Multimode Bio-,United States,Taiwan,49
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.4,MEMS-Free 4096-Pixel CMOS E-Nose Gas-Sensor Array with,Switzerland,Switzerland,49
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.5,Millimeter-Sized 0.1pM LoD Wireless 16-Channel,China,China,49
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.6,Fully Integrated Self-Propelling Microrobot in 180nm CMOS with,China,China,50
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.7,A 384-Site Chip Platform for Biochemical Applications with,Ireland,United Kingdom,50
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.8,A 94.8nW Battery-Free Intelligent Silicon Platform Enabling,China,Portugal,50
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.9,An Autonomous and Lightweight Microactuator Driving System,France,France,50
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.1,A 200GHz 200-Pixel 2D Near-Field Imager for Biomedical,United States,United States,50
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.11,A Crystal-less BodyID with an Asynchronous Clockless,United States,United States,50
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.12,A 3×3.3mm Conﬁgurable γ Photon Spectrometer for Precision,United States,United States,50
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.1,A 12A 89.3% Peak Efﬁciency and 26mV Undershoot 12-to-1V,China,China,51
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.2,A Dual-Input Bidirectional 3-Level Battery Charger with,Korea,Korea,51
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.3,A Segmented-Interlacing Multi-Phase Hybrid Converter with,China,Portugal,51
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.4,A 97.4%-Peak-Efﬁciency Always-Half-Inductor-Current Hybrid,Korea,Korea,51
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.5,A Fully Integrated Multi-Phase Voltage Regulator with Enhanced,United States,United States,51
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.6,A 2A Fully Analog Distribution LDO with Noise Immunity for an,Korea,Korea,52
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.7,Merging Hybrid and Multi-Phase Topologies: A 6-Phase,United States,France,52
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.8,HOOP: A Scalable Hybrid DC-DC Converter Ring for,China,Germany,52
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.9,A 20MHz & 1MHz Dual-Loop Non-Uniform-Multi-Inductor,China,China,52
-Session 22,Frequency Synthesizers and Series-Resonance VCOs ,22.1,A 0.275pJ/b 42Gb/s/pin Clock-Referenced PAM3 Transceiver,Korea,United States,53
-Session 22,Frequency Synthesizers and Series-Resonance VCOs ,22.2,An 850μW 2-to-5GHz Jitter-Filtering and Instant-Toggling,Korea,Korea,53
-Session 22,Frequency Synthesizers and Series-Resonance VCOs ,22.3,A 42Gb/s Single-Ended Hybrid-DFE PAM-3 Receiver for GDDR7,Korea,Korea,53
-Session 22,Frequency Synthesizers and Series-Resonance VCOs ,22.4,A 32-to-50Gb/s/pin Single-Ended PAM-4 Transmitter with a,Korea,Korea,53
-Session 22,Frequency Synthesizers and Series-Resonance VCOs ,22.5,A 0.3pJ/b 32Gb/s/pin Single-Ended PAM-4 Receiver with a,Korea,Korea,53
-Session 11,Frequency Synthesizers and Series-Resonance VCOs ,11.1,A 256-Element Ka-Band CMOS Phased-Array Receiver Using,,,54
-Session 11,Frequency Synthesizers and Series-Resonance VCOs ,11.4,A Gm-C RF Quadrature-Current-Generation Technique with 40dB,,,54
-Session 15,Frequency Synthesizers and Series-Resonance VCOs ,15.3,A 65nm Uncertainty-Quantiﬁable Ventricular Arrhythmia,,,54
-Session 16,Frequency Synthesizers and Series-Resonance VCOs ,16.1,Tomahawk5: 51.2Tb/s 5nm Monolithic Switch Chip for AI/ML,,,54
-Session 16,Frequency Synthesizers and Series-Resonance VCOs ,16.2,RNGD: A 5nm Tensor-Contraction Processor for Power-Efﬁcient,,,54
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.4,MEMS-Free 4096-Pixel CMOS E-Nose Gas-Sensor Array with,,,54
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.7,A 384-Site Chip Platform for Biochemical Applications with,,,54
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.1,A 200GHz 200-Pixel 2D Near-Field Imager for Biomedical,,,54
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.11,A Crystal-less BodyID with an Asynchronous Clockless,,,54
-Session 20,Frequency Synthesizers and Series-Resonance VCOs ,20.12,A 3×3.3mm Conﬁgurable γ Photon Spectrometer for Precision,,,54
-Session 21,Frequency Synthesizers and Series-Resonance VCOs ,21.5,A Fully Integrated Multi-Phase Voltage Regulator with Enhanced,,,54
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.2,A 28nm 0.22μJ/Token Memory-Compute-Intensity-Aware,,,54
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.3,EdgeDiff: 418.4mJ/Inference Multi-Modal Few-Step Diffusion,,,54
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.7,BROCA: A 52.4-to-559.2mW Mobile Social Agent System-on-Chip,,,54
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.9,Slim-Llama: A 4.69mW Large-Language-Model Processor with,,,54
-Session 25,Frequency Synthesizers and Series-Resonance VCOs ,25.2,A 4GS/s Fully Analog 256×256 MP-Based Cross-Correlator with,,,54
-Session 27,Frequency Synthesizers and Series-Resonance VCOs ,27.1,A 3-Axis MEMS Gyroscope with 2.8ms Wake-Up Time Enabled by,,,55
-Session 27,Frequency Synthesizers and Series-Resonance VCOs ,27.5,"A 4,100μm2 Wire-Metal-Based Temperature Sensor with a",,,55
-Session 29,Frequency Synthesizers and Series-Resonance VCOs ,29.4,A 38Mb/mm2 380/540mV Dual-Rail SRAM in 3nm-FinFET,,,55
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.3,A 0.29pJ/b 5.27Tb/s/mm UCIe Advanced Package Link in 3nm,,,55
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.2,A 2-Dimensional mm-Scale Network-on-Textiles (kNOTs) for,,,55
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.4,SHINSAI: A 586mm2 Reusable Active TSV Interposer with,,,55
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.7,A 28nm 18.1μJ/Acquisition End-to-End GPS Acquisition,,,55
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.1,T-REX: A 68-to-567μs/Token 0.41-to-3.95μJ/Token Transformer,United States,United States,57
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.2,A 28nm 0.22μJ/Token Memory-Compute-Intensity-Aware,China,China,57
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.3,EdgeDiff: 418.4mJ/Inference Multi-Modal Few-Step Diffusion,Korea,Korea,57
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.4,Nebula: A 28nm 109.8TOPS/W 3D PNN Accelerator Featuring,China,China,57
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.5,MAE: A 3nm 0.168mm2 576MAC Mini Autoencoder with,Taiwan,Taiwan,58
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.6,MEGA.mini: A Universal Generative AI Processor with a New,United States,Korea,58
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.7,BROCA: A 52.4-to-559.2mW Mobile Social Agent System-on-Chip,Korea,Korea,58
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.8,An 88.36TOPS/W Bit-Level-Weight-Compressed Large-Language-,China,China,58
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.9,Slim-Llama: A 4.69mW Large-Language-Model Processor with,Korea,Korea,58
-Session 23,Frequency Synthesizers and Series-Resonance VCOs ,23.1,HuMoniX: A 57.3fps 12.8TFLOPS/W Text-to-Motion Processor,Korea,Korea,58
-Session 24,Frequency Synthesizers and Series-Resonance VCOs ,24.1,A 12b 3GS/s Pipelined ADC with Gated-LMS-Based,China,China,59
-Session 24,Frequency Synthesizers and Series-Resonance VCOs ,24.2,A 14b 1GS/s Single-Channel Pipelined ADC with a,China,China,59
-Session 24,Frequency Synthesizers and Series-Resonance VCOs ,24.3,A PVT-Robust 2× Interleaved 2.2GS/s ADC with,China,Portugal,59
-Session 24,Frequency Synthesizers and Series-Resonance VCOs ,24.4,A 10b 3GS/s Time-Domain ADC with Mutually Exclusive,China,Portugal,59
-Session 24,Frequency Synthesizers and Series-Resonance VCOs ,24.5,A 72GS/s 9b Time-Interleaved Pipeline-SAR ADC Achieving,China,Portugal,60
-Session 24,Frequency Synthesizers and Series-Resonance VCOs ,24.6,A Power- and Area-Efﬁcient 4nm Self-Calibrated 12b/16GS/s,Taiwan,United States,60
-Session 24,Frequency Synthesizers and Series-Resonance VCOs ,24.7,An 8b 10GS/s 2-Channel Time-Interleaved Pipelined ADC with,China,China,60
-Session 24,Frequency Synthesizers and Series-Resonance VCOs ,24.8,A 12GS/s 9b 16× Time-Interleaved SAR ADC in 16nm FinFET,United States,Ireland,60
-Session 25,Frequency Synthesizers and Series-Resonance VCOs ,25.1,A Physics-Inspired Oscillator-Based Mixed-Signal Optimization,United States,United States,61
-Session 25,Frequency Synthesizers and Series-Resonance VCOs ,25.2,A 4GS/s Fully Analog 256×256 MP-Based Cross-Correlator with,United States,United States,61
-Session 25,Frequency Synthesizers and Series-Resonance VCOs ,25.3,AI-Enabled Design Space Discovery and End-to-end Synthesis for,United States,United States,61
-Session 25,Frequency Synthesizers and Series-Resonance VCOs ,25.4,A Micromachined Heterogeneously Integrated Active-Probe,United States,United States,61
-Session 25,Frequency Synthesizers and Series-Resonance VCOs ,25.5,A 99.5mW/port DC-to-40GHz Integrated Channel Analyzer for,China,China,61
-Session 26,Frequency Synthesizers and Series-Resonance VCOs ,26.1,A 24GHz Direct Digital Transmitter Using Multiphase,United States,China,62
-Session 26,Frequency Synthesizers and Series-Resonance VCOs ,26.2,A Wideband Replicas-Rejection Digital Transmitter Using,China,China,62
-Session 26,Frequency Synthesizers and Series-Resonance VCOs ,26.3,A Crystal-less Frequency-Modulation Transmitter IC with Joint,United States,United States,62
-Session 26,Frequency Synthesizers and Series-Resonance VCOs ,26.4,A 24-to-29GHz Compact Transmit/Receive Front-End Module,United States,United States,62
-Session 26,Frequency Synthesizers and Series-Resonance VCOs ,26.5,A 17.7-to-29.5GHz Transceiver Front-End with 3.3dB NF,China,United States,62
-Session 27,Frequency Synthesizers and Series-Resonance VCOs ,27.1,A 3-Axis MEMS Gyroscope with 2.8ms Wake-Up Time Enabled by,China,China,63
-Session 27,Frequency Synthesizers and Series-Resonance VCOs ,27.2,A Voltage-Biased CMOS Hall Sensor with 1.0μT (3σ) Offset and a,Netherlands,China,63
-Session 27,Frequency Synthesizers and Series-Resonance VCOs ,27.3,A Sub-1V 14b 5.8nW/Hz BW/Power-Scalable CT Sensor Interface,China,China,63
-Session 27,Frequency Synthesizers and Series-Resonance VCOs ,27.4,A BJT-Based Temperature Sensor with an 80fJ∙K2 Resolution FoM,Netherlands,Netherlands,63
-Session 27,Frequency Synthesizers and Series-Resonance VCOs ,27.5,"A 4,100μm2 Wire-Metal-Based Temperature Sensor with a",China,Portugal,63
-Session 28,Frequency Synthesizers and Series-Resonance VCOs ,28.1,An 18.5nF-Input-Range PM-SAR-Hybrid Capacitance-to-Digital,Korea,Switzerland,64
-Session 28,Frequency Synthesizers and Series-Resonance VCOs ,28.2,A 189.3dB-FoMS 14.5fJ/Conversion-Step Continuous-Time,Korea,Belgium,64
-Session 28,Frequency Synthesizers and Series-Resonance VCOs ,28.3,A 185.2dB-FoMs 8.7aFrms Zoomed Capacitance-to-Digital,China,China,64
-Session 28,Frequency Synthesizers and Series-Resonance VCOs ,28.4,A 143dB-Dynamic-Range 119dB-CMRR Capacitance-to-Digital,China,Netherlands,64
-Session 29,Frequency Synthesizers and Series-Resonance VCOs ,29.1,A 38.1Mb/mm2 SRAM in a 2nm-CMOS-Nanosheet Technology for,Taiwan,Taiwan,65
-Session 29,Frequency Synthesizers and Series-Resonance VCOs ,29.2,A 0.021μm2 High-Density SRAM in Intel-18A-RibbonFET,United States,United States,65
-Session 29,Frequency Synthesizers and Series-Resonance VCOs ,29.3,A 3nm FinFET 2.2Gsearch/s 0.305fJ/b TCAM with Dynamically,United States,Singapore,65
-Session 29,Frequency Synthesizers and Series-Resonance VCOs ,29.4,A 38Mb/mm2 380/540mV Dual-Rail SRAM in 3nm-FinFET,United States,India,65
-Session 29,Frequency Synthesizers and Series-Resonance VCOs ,29.5,A 3nm 3.6GHz Dual-Port SRAM with Backend-RC Optimization,Taiwan,Japan,65
-Session 30,Frequency Synthesizers and Series-Resonance VCOs ,30.1,A 28Gb/mm2 4XX-Layer 1Tb 3b/cell WF-Bonding 3D-NAND Flash,Korea,Korea,66
-Session 30,Frequency Synthesizers and Series-Resonance VCOs ,30.2,A 1Tb 3b/cell 3D-Flash Memory with a 29%-Improved-Energy-,United States,United States,66
-Session 30,Frequency Synthesizers and Series-Resonance VCOs ,30.3,A 24Gb 42.5Gb/s GDDR7 DRAM with Low-Power-WCK,Korea,Korea,66
-Session 30,Frequency Synthesizers and Series-Resonance VCOs ,30.4,A 16Gb 12.7Gb/s/pin LPDDR5-Ultra-Pro DRAM with 4-Phase,Korea,Korea,66
-Session 30,Frequency Synthesizers and Series-Resonance VCOs ,30.5,A 321-Layer 2Tb 4b/cell 3D-NAND-Flash Memory with a 75MB/s,United States,United States,66
-Session 30,Frequency Synthesizers and Series-Resonance VCOs ,30.6,A 64Gb DDR4 STT-MRAM Using a Time-Controlled Discharge-,Korea,Korea,66
-Session 31,Frequency Synthesizers and Series-Resonance VCOs ,31.1,An Inductor-less Capacitor-less Synchronous,Netherlands,China,67
-Session 31,Frequency Synthesizers and Series-Resonance VCOs ,31.2,A Biased-SECE Interface for Piezoelectric Energy Harvesting with,Korea,Korea,67
-Session 31,Frequency Synthesizers and Series-Resonance VCOs ,31.3,A Rectiﬁer-less Piezoelectric Energy-Harvesting Interface with a,Netherlands,China,67
-Session 31,Frequency Synthesizers and Series-Resonance VCOs ,31.4,A 91.25% Peak-Power-Conversion-Efﬁciency Capacitive,China,Portugal,67
-Session 32,Frequency Synthesizers and Series-Resonance VCOs ,32.1,A 180MHz 45.3%-Peak-Efﬁciency Isolated Converter Using,China,Portugal,68
-Session 32,Frequency Synthesizers and Series-Resonance VCOs ,32.2,A Single-Link Multi-Domain-Output (SLiMDO) Isolated DC-DC,United States,United States,68
-Session 32,Frequency Synthesizers and Series-Resonance VCOs ,32.3,An Accurate Secondary-Side Controller with GaN-Based CGS,Taiwan,Taiwan,68
-Session 32,Frequency Synthesizers and Series-Resonance VCOs ,32.4,A Dual-LC-Resonant Isolated DC-DC Converter Achieving 65.4%,China,China,68
-Session 32,Frequency Synthesizers and Series-Resonance VCOs ,32.5,A 2W 53.2%-Peak-Efﬁciency Multi-Core Isolated DC-DC Converter,China,China,68
-Session 32,Frequency Synthesizers and Series-Resonance VCOs ,32.6,A Dynamic-RON-Diminished Bidirectional GaN Load Switch with,Taiwan,Taiwan,68
-Session 33,Frequency Synthesizers and Series-Resonance VCOs ,33.1,A 232-to-260GHz CMOS Ampliﬁer-Multiplier Chain with a,United States,United States,69
-Session 33,Frequency Synthesizers and Series-Resonance VCOs ,33.2,A 216-to-226GHz Watt-Level GaN Solid-State Power Ampliﬁer,China,China,69
-Session 33,Frequency Synthesizers and Series-Resonance VCOs ,33.3,A 125-to-170GHz Power-Efﬁcient Phase Shifter in SiGe,Italy,Italy,69
-Session 33,Frequency Synthesizers and Series-Resonance VCOs ,33.4,A Wideband Bidirectional Calibration-Free Frequency/Switching-,Switzerland,Switzerland,69
-Session 33,Frequency Synthesizers and Series-Resonance VCOs ,33.5,A 224GHz 19.9% TR Varactor-less VCO Utilizing a Multi-Section,United States,United States,69
-Session 34,Frequency Synthesizers and Series-Resonance VCOs ,34.1,"A 65fsrms-Jitter and -272dB-FoMjitter,N 10.1GHz Fractional-N Digital",Korea,Korea,70
-Session 34,Frequency Synthesizers and Series-Resonance VCOs ,34.2,A 380μW and -242.8dB FoM Digital-PLL-Based GFSK Modulator,Austria,Austria,70
-Session 34,Frequency Synthesizers and Series-Resonance VCOs ,34.3,A 4.75GHz Digital PLL with 45.8fs Integrated-Jitter and 257dB,Italy,Switzerland,70
-Session 34,Frequency Synthesizers and Series-Resonance VCOs ,34.4,A 9.05-to-37.0GHz LO Generator with Magnetic Mode Switching,United States,United States,70
-Session 34,Frequency Synthesizers and Series-Resonance VCOs ,34.5,An 18.5-to-23.6GHz Quad-Core Class-F23 Oscillator Without,China,China,70
-Session 34,Frequency Synthesizers and Series-Resonance VCOs ,34.6,A 47.3-to-58.4GHz Differential Quasi-Class-E Colpitts Oscillator,China,China,70
-Session 35,Frequency Synthesizers and Series-Resonance VCOs ,35.1,A Single-Inductor-Based High-Voltage Transmit Beamformer for,Netherlands,Netherlands,71
-Session 35,Frequency Synthesizers and Series-Resonance VCOs ,35.2,A Spatial-Domain Compressive-Sensing Photoacoustic Imager,United States,United States,71
-Session 35,Frequency Synthesizers and Series-Resonance VCOs ,35.3,A 30MHz Wideband 92.7dB SNR 99.6% Accuracy Bioimpedance,United Kingdom,United Kingdom,71
-Session 35,Frequency Synthesizers and Series-Resonance VCOs ,35.4,A Miniature Biomedical Implant Secured by Two-Factor,United States,United States,71
-Session 35,Frequency Synthesizers and Series-Resonance VCOs ,35.5,A Wireless Adiabatic Stimulator System with Current-Mode,Korea,Korea,72
-Session 35,Frequency Synthesizers and Series-Resonance VCOs ,35.6,An Enhanced-Frequency-Splitting-Based Wireless Power and,Korea,Korea,72
-Session 35,Frequency Synthesizers and Series-Resonance VCOs ,35.7,A Programming-Free Three-Dimensional Resonant Current-Mode,Korea,Korea,72
-Session 35,Frequency Synthesizers and Series-Resonance VCOs ,35.8,DustNet: A Network of Time-Division Multiplexed Ultrasonic,United States,United States,72
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.1,A 32Gb/s 10.5Tb/s/mm 0.6pJ/b UCIe-Compliant Low-Latency,Taiwan,United States,73
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.2,A 64Gb/s/wire 10.5Tb/s/mm/layer Single-Ended Simultaneous,China,China,73
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.3,A 0.29pJ/b 5.27Tb/s/mm UCIe Advanced Package Link in 3nm,United States,United States,73
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.4,A 0.9pJ/b 108Gb/s PAM-4 VCSEL-Based Direct-Drive Optical,United States,United States,73
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.5,A Low-Latency 200Gb/s PAM-4 Heterogeneous Transceiver in,China,China,74
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.6,A 112Gb/s 0.61pJ/b PAM-4 Linear TIA Supporting Extended,China,China,74
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.7,A 1.54pJ/b 64Gb/s 16-QAM Intradyne Coherent Optical Receiver,United States,United States,74
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.8,A 100Gbaud 4Vppd Distributed Linear Driver with Cross-Folded,China,China,74
-Session 36,Frequency Synthesizers and Series-Resonance VCOs ,36.9,A 212Gb/s PAM-4 Retimer with Integrated High-Swing Optical,United States,Italy,74
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.1,IBM Telum II Processor Design-Technology Co-Optimizations for,United States,Germany,75
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.2,A 2-Dimensional mm-Scale Network-on-Textiles (kNOTs) for,United States,United States,75
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.3,Monolithic In-Memory Computing Microprocessor for End-to-End,Korea,United States,75
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.4,SHINSAI: A 586mm2 Reusable Active TSV Interposer with,China,China,75
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.5,SKADI: A 28nm Complete K-SAT Solver Featuring Dual-Path,China,China,76
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.6,A 22nm 60.81TFLOPS/W Diffusion Accelerator with,China,China,76
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.7,A 28nm 18.1μJ/Acquisition End-to-End GPS Acquisition,Korea,United States,76
-Session 37,Frequency Synthesizers and Series-Resonance VCOs ,37.8,A 13.5μW 35-Keyword End-to-End Keyword Spotting System,Korea,United States,76
+session No.,subcommittee,paper no.,paper title,first author country,last author country,page
+Session 1,Plenary - Invited Papers,1.1,AI Era Innovation Matrix,United States,United States,18
+Session 1,Plenary - Invited Papers,1.2,From Chips to Thoughts: Building Physical,United States,United States,18
+Session 1,Plenary - Invited Papers,1.3,AI Revolution Driven by Memory,Korea,Korea,19
+Session 1,Plenary - Invited Papers,1.4,The Crucial Role of Semiconductors,Germany,Germany,19
+Session 2,Processors,2.1,“Zen 5”: The AMD High-Performance 4nm x86-64 Microprocessor,United States,India,20
+Session 2,Processors,2.2,IBM Telum II: Next Generation 5.5GHz Microprocessor with,United States,United States,20
+Session 2,Processors,2.3,"Granite Rapids-D: Intel Xeon 6 SoC for vRAN, Edge, Networking,",India,United States,20
+Session 2,Processors,2.4,"A 300MB SRAM, 20Tb/s Bandwidth Scalable Heterogenous 2.5D",India,United States,20
+Session 2,Processors,2.5,A 16nm 5.7TOPS CNN Processor Supporting Bi-Directional FPN,Taiwan,Taiwan,21
+Session 2,Processors,2.6,1.78mJ/Frame 373fps 3D GS Processor Based on Shape-Aware,China,China,21
+Session 2,Processors,2.7,IRIS: An 8.55mJ/frame Spatial Computing SoC for Interactable,Korea,Korea,21
+Session 2,Processors,2.8,A 210fps Image Signal Processor for 4K Ultra HD True Video,Taiwan,United States,21
+Session 2,Processors,2.9,STEP: An 8K-60fps Space-Time Resolution-Enhancement,Taiwan,Taiwan,21
+Session 2,Processors,2.10,A 0.52mJ/Frame 107fps Super-Resolution Processor Exploiting,China,China,21
+Session 3,Ampliﬁers and Analog Front-Ends,3.1,"A 121.3dB-DR, 115dB-PSNR, Digital-Input Capacitive-Feedback",Taiwan,Taiwan,22
+Session 3,Ampliﬁers and Analog Front-Ends,3.2,A 36V Current-Balancing Instrumentation Ampliﬁer with ±24V,China,China,22
+Session 3,Ampliﬁers and Analog Front-Ends,3.3,A Passive Switched-Capacitor-Based Multimode Ampliﬁer with a,Germany,Germany,22
+Session 3,Ampliﬁers and Analog Front-Ends,3.4,A CMOS Operational Ampliﬁer Achieving ±5.8μV 3σ Offset and,China,Netherlands,22
+Session 4,Analog Techniques,4.1,A 12.8GS/s Sub-Sampling ADC Front-End with 38GHz Input,Netherlands,France,23
+Session 4,Analog Techniques,4.2,A 1.8-to-3.0GHz Fully Integrated All-In-One CMOS Frequency,China,United States,23
+Session 4,Analog Techniques,4.3,"A 0.36nW, 820μm2, 32kHz Conduction-Angle-Adaptive Crystal","Hong Kong, China",China,23
+Session 4,Analog Techniques,4.4,A 0.36nW/0.9V 32kHz Crystal Oscillator Using Analog Regulation,Germany,Germany,23
+Session 4,Analog Techniques,4.5,A 0.4μW/MHz Reference-Replication-Based RC Oscillator with,China,China,23
+Session 4,Analog Techniques,4.6,"A 0.8V, 31ppm/°C, -40dB DC-to-GHz Power-Supply-Rejection",Taiwan,Taiwan,23
+Session 5,Front-End Circuits for High-Performance Transceivers,5.1,A GaN SLCG-Doherty-Continuum Power Ampliﬁer Achieving >38%,China,China,24
+Session 5,Front-End Circuits for High-Performance Transceivers,5.2,Spatial-Temporal Direct-Digital Beamforming Power Ampliﬁer,China,China,24
+Session 5,Front-End Circuits for High-Performance Transceivers,5.3,A 56-to-64GHz Linear Power Ampliﬁer with 30.2dBm Psat and,China,China,24
+Session 5,Front-End Circuits for High-Performance Transceivers,5.4,A 22nm FDSOI CMOS-Based Compact 3-Stack Doherty Power,Korea,Korea,24
+Session 5,Front-End Circuits for High-Performance Transceivers,5.5,An Ultra-Compact Wideband Load-Insensitive Complex-Cascode,Switzerland,Switzerland,24
+Session 5,Front-End Circuits for High-Performance Transceivers,5.6,A Power-Efﬁcient CORDIC-less Digital Polar Transmitter Using 1b,Japan,Japan,25
+Session 5,Front-End Circuits for High-Performance Transceivers,5.7,"A 4.7GHz, 27.7dBm Pout, 37.8% PAE, 5.8° AM-PM Distortion",China,China,25
+Session 5,Front-End Circuits for High-Performance Transceivers,5.8,A 20W CMOS/LDMOS All-Digital Transmitter with Dynamic,Netherlands,Germany,25
+Session 5,Front-End Circuits for High-Performance Transceivers,5.9,A 21-to-31GHz DPD-less Quadrature RFDAC with Invariant,China,China,25
+Session 5,Front-End Circuits for High-Performance Transceivers,5.10,A 3.5mW mm-Wave Low-Noise Active Bandpass Filter Employing,United States,United States,25
+Session 5,Front-End Circuits for High-Performance Transceivers,5.11,A Blocker-Tolerant mm-Wave Low-Noise Ampliﬁer Utilizing,United States,United States,25
+Session 6,Imagers and Displays,6.1,A 3-Stacked Hybrid-Shutter CMOS Image Sensor with Switchable,Korea,Korea,26
+Session 6,Imagers and Displays,6.2,An Asynchronous 160×90 Flash LiDAR Sensor with Dynamic,Korea,Korea,26
+Session 6,Imagers and Displays,6.3,SPAD Flash LiDAR with Chopped Analog Counter for 76m Range,Korea,Korea,26
+Session 6,Imagers and Displays,6.4,A 400×400 3.24μm 117dB-Dynamic-Range 3-Layer Stacked,United States,United States,26
+Session 6,Imagers and Displays,6.5,A 25.2Mpixel 120frames/s Full-Frame Global-Shutter CMOS,Japan,Japan,27
+Session 6,Imagers and Displays,6.6,A 320×256 6.9mW 2.2mK-NETD 120.4dB-DR LW-IRFPA with,China,China,27
+Session 6,Imagers and Displays,6.7,A 10b Source-Driver IC with All-Channel Automatic Offset,Korea,Korea,27
+Session 6,Imagers and Displays,6.8,A Real-Time Pixel-Compensated Source-Driver IC with,Korea,Korea,27
+Session 6,Imagers and Displays,6.9,A Compact 10b Source Driver IC with Delta-Sigma Pulse Width,Korea,Korea,27
+Session 6,Imagers and Displays,6.10,A 10.5mW Automotive Touch AFE IC Featuring Radiated EMI,Korea,Korea,27
+Session 7,Ultra-High-Speed Wireline,7.1,A 212.5Gb/s DSP-Based PAM-4 Transceiver with 50dB Loss,Taiwan,United States,28
+Session 7,Ultra-High-Speed Wireline,7.2,A 2.2pJ/b 212.5Gb/s PAM-4 Transceiver with >46dB Reach in 5nm,United States,Canada,28
+Session 7,Ultra-High-Speed Wireline,7.3,A 1.11pJ/b 224Gb/s XSR Receiver with Slice-Based CTLE and,China,China,28
+Session 7,Ultra-High-Speed Wireline,7.4,A 112Gb/s DSP-Based PAM-4 Receiver with an LC-Resonator-,United States,Taiwan,28
+Session 7,Ultra-High-Speed Wireline,7.5,A 353mW 112Gb/s Discrete Multitone Wireline Receiver Datapath,Korea,Switzerland,29
+Session 7,Ultra-High-Speed Wireline,7.6,A 2.06pJ/b 106.25Gb/s PAM-4 Receiver with 3-Tap FFE and 1-Tap,Taiwan,Taiwan,29
+Session 7,Ultra-High-Speed Wireline,7.7,"A 50Gb/s Burst-Mode NRZ Receiver with 5-Tap FFE, 7-Tap DFE",China,China,29
+Session 7,Ultra-High-Speed Wireline,7.8,A Reference-less CDR Using SAR-Based Frequency-Acquisition,China,China,29
+Session 7,Ultra-High-Speed Wireline,7.9,A 60Gb/s NRZ Burst-Mode CDR with Cross-Injection Locking and,China,China,29
+Session 7,Ultra-High-Speed Wireline,7.10,An 8-to-28GHz 8-Phase Clock Generator Using Dual-Feedback,China,China,29
+Session 2,Processors,2.5,A 16nm 5.7TOPS CNN Processor Supporting Bi-Directional FPN,,,30
+Session 2,Processors,2.6,1.78mJ/Frame 373fps 3D GS Processor Based on Shape-Aware,,,30
+Session 2,Processors,2.7,IRIS: An 8.55mJ/frame Spatial Computing SoC for Interactable,,,30
+Session 2,Processors,2.9,STEP: An 8K-60fps Space-Time Resolution-Enhancement,,,30
+Session 4,Analog Techniques,4.2,A 1.8-to-3.0GHz Fully Integrated All-In-One CMOS Frequency,,,30
+Session 4,Analog Techniques,4.3,"A 0.36nW, 820μm2, 32kHz Conduction-Angle-Adaptive Crystal",,,30
+Session 6,Imagers and Displays,6.1,A 3-Stacked Hybrid-Shutter CMOS Image Sensor with Switchable,,,30
+Session 7,Ultra-High-Speed Wireline,7.2,A 2.2pJ/b 212.5Gb/s PAM-4 Transceiver with >46dB Reach in 5nm,,,30
+Session 7,Ultra-High-Speed Wireline,7.4,A 112Gb/s DSP-Based PAM-4 Receiver with an LC-Resonator-,,,30
+Session 7,Ultra-High-Speed Wireline,7.6,A 2.06pJ/b 106.25Gb/s PAM-4 Receiver with 3-Tap FFE and 1-Tap,,,30
+Session 8,"Digital Techniques for System Adaptation,",8.8,Fine-Grained Spatial and Temporal Thermal Proﬁling of a 16nm,,,30
+Session 8,"Digital Techniques for System Adaptation,",8.9,An On-Cell Monitoring and Balancing System with Near-Field,,,31
+Session 9,Ubiquitous Power Delivery,9.6,A 6.78MHz Single-Stage Regulating Rectiﬁer with Dual Outputs,,,31
+Session 10,Transceiver Chipsets for Communications and Radar,10.1,A 77GHz Hybrid TDMA-MIMO Phased-Array Radar with 186m,,,31
+Session 10,Transceiver Chipsets for Communications and Radar,10.5,A 28nm Multimode Multiband RF Transceiver with Harmonic-,,,31
+Session 13,(Unknown),13.2,An 8.62μW 75dB-DRSoC End-to-End Spoken-Language-,,,31
+Session 13,(Unknown),13.3,A Cryo-BiCMOS Controller for 9Be+-Trapped-Ion-Based Quantum,,,31
+Session 13,(Unknown),13.4,Xiling: Cryo-CMOS 18-bit Dual-DAC Manipulator with 4.6μV,,,31
+Session 14,Compute-in-Memory,14.3,A 28nm 17.83-to-62.84TFLOPS/W Broadcast-Alignment Floating-,,,31
+Session 16,Invited Industry,16.1,Tomahawk5: 51.2Tb/s 5nm Monolithic Switch Chip for AI/ML,,,31
+Session 16,Invited Industry,16.2,RNGD: A 5nm Tensor-Contraction Processor for Power-Efﬁcient,,,31
+Session 8,"Digital Techniques for System Adaptation,",8.1,Dynamic Guard-Band Features of the IBM zNext System,Germany,India,32
+Session 8,"Digital Techniques for System Adaptation,",8.2,Run-Time Power Management System by On-Die Power Sensor,Taiwan,United States,32
+Session 8,"Digital Techniques for System Adaptation,",8.3,A Dynamically Reconﬁgurable Digital-Integrated,United States,United States,32
+Session 8,"Digital Techniques for System Adaptation,",8.4,"A 4GHz, 0.69%-Accuracy Voltage-Droop Detector with Multiple",Korea,Korea,32
+Session 8,"Digital Techniques for System Adaptation,",8.5,A Command-Aware Hybrid LDO for Advanced HBM Interfaces with,Korea,Korea,33
+Session 8,"Digital Techniques for System Adaptation,",8.6,A 0.024mm2 All-Digital Fractional Output Divider with 257fs,China,China,33
+Session 8,"Digital Techniques for System Adaptation,",8.7,A Dual VDD-Temperature Sensor Employing Sensor Fusion with,United States,United States,33
+Session 8,"Digital Techniques for System Adaptation,",8.8,Fine-Grained Spatial and Temporal Thermal Proﬁling of a 16nm,United States,United States,33
+Session 8,"Digital Techniques for System Adaptation,",8.9,An On-Cell Monitoring and Balancing System with Near-Field,United Kingdom,United Kingdom,33
+Session 9,Ubiquitous Power Delivery,9.1,An 85-to-230VAC to 3.3-to-4.6VDC 1.52W Capacitor-Drop,"Macau, China",China,34
+Session 9,Ubiquitous Power Delivery,9.2,A 400MHz Symbol-Power-Tracking (SPT) Supply Modulator with,United States,United States,34
+Session 9,Ubiquitous Power Delivery,9.3,A 74W/48V Monolithic-GaN Integrated Adjustable Multilevel,United States,United States,34
+Session 9,Ubiquitous Power Delivery,9.4,A 102ns/V 94.3%-Peak-Efﬁciency Symbol-Power-Tracking Supply,China,China,34
+Session 9,Ubiquitous Power Delivery,9.5,"A Sub-1V, 50mV Dropout LDO Using Pseudo-Impedance Buffer",Korea,Korea,34
+Session 9,Ubiquitous Power Delivery,9.6,A 6.78MHz Single-Stage Regulating Rectiﬁer with Dual Outputs,China,United States,34
+Session 9,Ubiquitous Power Delivery,9.7,A 6.78MHz 94.2% Peak Efﬁciency Class-E Transmitter with,China,China,35
+Session 9,Ubiquitous Power Delivery,9.8,A 50W 98%-Efﬁciency High-Power Wireless-Charging System,Korea,Korea,35
+Session 9,Ubiquitous Power Delivery,9.9,A Bi-Directional Dual-Path Boost-48V-Buck Hybrid Converter for,"Macau, China",China,35
+Session 9,Ubiquitous Power Delivery,9.10,A 93%-Peak-Efﬁciency Battery-Input 12-to-36V-Output,China,China,35
+Session 9,Ubiquitous Power Delivery,9.11,A 98.3%-Peak-Efﬁciency Single-Mode Hybrid Buck-Boost,China,China,35
+Session 10,Transceiver Chipsets for Communications and Radar,10.1,A 77GHz Hybrid TDMA-MIMO Phased-Array Radar with 186m,China,China,36
+Session 10,Transceiver Chipsets for Communications and Radar,10.2,A 132-to-148GHz CMOS 4TX-4RX FMCW Radar Transceiver Array,China,China,36
+Session 10,Transceiver Chipsets for Communications and Radar,10.3,A D-Band 2D-Scalable 4×4 Active Reﬂective Relay with,Switzerland,Switzerland,36
+Session 10,Transceiver Chipsets for Communications and Radar,10.4,A 2-TRX IR-UWB Transceiver with Shared Antennas Supporting,Korea,Korea,36
+Session 10,Transceiver Chipsets for Communications and Radar,10.5,A 28nm Multimode Multiband RF Transceiver with Harmonic-,China,Singapore,36
+Session 11,(Unknown),11.1,A 256-Element Ka-Band CMOS Phased-Array Receiver Using,Japan,Japan,37
+Session 11,(Unknown),11.2,A Blocker-Tolerant Receiver with VCO-Based Non-Uniform,United States,Canada,37
+Session 11,(Unknown),11.3,A Compact Full-Duplex Receiver with Wideband Multi-Domain,China,China,37
+Session 11,(Unknown),11.4,A Gm-C RF Quadrature-Current-Generation Technique with 40dB,China,China,37
+Session 11,(Unknown),11.5,A 200MHz-BW Blocker-Tolerant Receiver with Fifth-Order,China,China,37
+Session 12,Innovations from Outside the (ISSCC’s) Box,12.1,Circuits that Solve Optimization Problems by Exploiting Physics,United States,United States,38
+Session 12,Innovations from Outside the (ISSCC’s) Box,12.2,p-Circuits: Neither Digital nor Analog,United States,United States,38
+Session 12,Innovations from Outside the (ISSCC’s) Box,12.3,Reversing Scattering to Perform Deep-Tissue Optical Imaging and,United States,United States,38
+Session 12,Innovations from Outside the (ISSCC’s) Box,12.4,Skin-Inspired Electronics: An Emerging Sensing and Computing,United States,Denmark,38
+Session 13,(Unknown),13.1,A 0.22mm2 161nW Noise-Robust Voice-Activity Detection Using,China,China,39
+Session 13,(Unknown),13.2,An 8.62μW 75dB-DRSoC End-to-End Spoken-Language-,Switzerland,Finland,39
+Session 13,(Unknown),13.3,A Cryo-BiCMOS Controller for 9Be+-Trapped-Ion-Based Quantum,Germany,Japan,39
+Session 13,(Unknown),13.4,Xiling: Cryo-CMOS 18-bit Dual-DAC Manipulator with 4.6μV,China,China,39
+Session 13,(Unknown),13.5,An 18.5μW/qubit Cryo-CMOS Charge-Readout IC Demonstrating,France,France,39
+Session 13,(Unknown),13.6,A Via-Programmable DNN-Processor Fabrication Toward 1/40th,Japan,Japan,39
+Session 14,Compute-in-Memory,14.1,A 22nm 104.5TOPS/W μ-NMC-Δ-IMC Heterogeneous STT-MRAM,Taiwan,Taiwan,40
+Session 14,Compute-in-Memory,14.2,"A 16nm 216kb, 188.4TOPS/W and 133.5TFLOPS/W Microscaling",Taiwan,United States,40
+Session 14,Compute-in-Memory,14.3,A 28nm 17.83-to-62.84TFLOPS/W Broadcast-Alignment Floating-,China,China,40
+Session 14,Compute-in-Memory,14.4,A 51.6TFLOPS/W Full-Datapath CIM Macro Approaching Sparsity,China,China,40
+Session 14,Compute-in-Memory,14.5,A 28nm 192.3TFLOPS/W Accurate/Approximate Dual-Mode-,China,"Macau, China",41
+Session 14,Compute-in-Memory,14.6,A 28nm 64kb Bit-Rotated Hybrid-CIM Macro with an Embedded,China,China,41
+Session 14,Compute-in-Memory,14.7,"NeuroPilot: A 28nm, 69.4fJ/node and 0.22ns/node, 32×32",China,China,41
+Session 15,Neural Interfaces and Edge Intelligence,15.1,A 3.9mW 200words/min Neural Signal Processor in Speech,Taiwan,Taiwan,42
+Session 15,Neural Interfaces and Edge Intelligence,15.2,A 1024-Channel 0.00029mm2/ch 74nW/ch Online Spatial,Netherlands,United States,42
+Session 15,Neural Interfaces and Edge Intelligence,15.3,A 65nm Uncertainty-Quantiﬁable Ventricular Arrhythmia,United States,United States,42
+Session 15,Neural Interfaces and Edge Intelligence,15.4,A Neuroprosthetic SoC with Sensory Feedback Featuring,Canada,Taiwan,42
+Session 15,Neural Interfaces and Edge Intelligence,15.5,Event-Based Spatially Zooming Neural Interface IC with,Canada,Canada,43
+Session 15,Neural Interfaces and Edge Intelligence,15.6,A 3.47 NEF 175.2dB FOMS Direct Digitization Front-End Featuring,Switzerland,United States,43
+Session 15,Neural Interfaces and Edge Intelligence,15.7,A 4.6μW 3.3-NEF Biopotential Ampliﬁer with 133VPP,Korea,United States,43
+Session 16,Invited Industry,16.1,Tomahawk5: 51.2Tb/s 5nm Monolithic Switch Chip for AI/ML,United States,United States,44
+Session 16,Invited Industry,16.2,RNGD: A 5nm Tensor-Contraction Processor for Power-Efﬁcient,Korea,Korea,44
+Session 16,Invited Industry,16.3,An On-Device Generative AI Focused Neural Processing Unit in,Korea,Korea,44
+Session 16,Invited Industry,16.4,SambaNova SN40L: A 5nm 2.5D Dataﬂow Accelerator With Three,United States,United States,44
+Session 17,Hardware Security,17.1,Sensor-Less Laser Voltage-Probing Attack Detection via,Singapore,China,45
+Session 17,Hardware Security,17.2,A 28nm 4.05μJ/Encryption 8.72kHMul/s Reconﬁgurable,China,China,45
+Session 17,Hardware Security,17.3,A 30.4GOPS/mW MK-CKKS Processor for Secure Multi-Party,Taiwan,Taiwan,45
+Session 17,Hardware Security,17.4,An Efﬁcient Vth-Tilting PUF Design in 3nm GAA and 8nm FinFET,Korea,Korea,45
+Session 17,Hardware Security,17.5,An Eye-Opening Arbiter PUF for Fingerprint Generation Using,Germany,Germany,45
+Session 17,Hardware Security,17.6,A 100MHz Self-Calibrating RC Oscillator Capable of Clock-Glitch,United States,United States,45
+Session 18,Noise-Shaping and SAR-Based ADCs,18.1,A Fully Dynamic Noise-Shaping SAR ADC Achieving 120dB SNDR,China,China,46
+Session 18,Noise-Shaping and SAR-Based ADCs,18.2,A 12.2μW 99.6dB-SNDR 184.8dB-FoMS DT Zoom PPD ΔΣM with,China,China,46
+Session 18,Noise-Shaping and SAR-Based ADCs,18.3,"A 93.3dB SNDR, 180.4dB FoMS",China,China,46
+Session 18,Noise-Shaping and SAR-Based ADCs,18.4,A 184.8dB FoMS 1.6MS/s Incremental Noise-Shaping Pipeline,China,China,46
+Session 18,Noise-Shaping and SAR-Based ADCs,18.5,A Rail-to-Rail 3rd-Order Noise-Shaping SAR ADC Achieving,China,China,47
+Session 18,Noise-Shaping and SAR-Based ADCs,18.6,An Easy-Drive 16MS/s Pipelined-SAR ADC Using Split,China,China,47
+Session 18,Noise-Shaping and SAR-Based ADCs,18.7,A 70dB SNDR 80MHz BW Filter-Embedded Pipeline-SAR ADC,China,China,47
+Session 18,Noise-Shaping and SAR-Based ADCs,18.8,A Cryo-CMOS 800MS/s 7b CI-SAR with only 4fF Input Capacitance,Belgium,Belgium,47
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.1,A PVT-Robust 5.5GHz Fractional-N Cascaded RO-Based Digital,"Macau, China",Portugal,48
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.2,"A 96fsrms-Jitter, -70.6dBc-Fractional-Spur Cascaded PLL",Japan,Japan,48
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.3,A Fractional-N PLL with 34fsrms Jitter and -255.5dB FoM Based,Taiwan,Taiwan,48
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.4,An 8.1-to-9.9GHz Single-Core Pseudo-Series-Resonance,Ireland,United Kingdom,48
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.5,A Differential Series-Resonance CMOS VCO with,China,China,48
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.6,A 60GHz I/Q-Calibrated SSB-Mixer-Based LO with Sub-ns Settling,Korea,Korea,49
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.7,A 27GHz Fractional-N Sub-Sampling PLL Achieving 57.9fsrms,"Macau, China",Portugal,49
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.8,A 0.65V-VDD 10.4-to-11.8GHz Fractional-N Sampling PLL,China,China,49
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.9,"An 11-to-16.4GHz, 3.4GHz/μs-Slope, 5.32GHz-Chirp-Bandwidth,",China,China,49
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.10,A 4.6GHz 63.3fsrms PLL-XO Co-Design Using a Self-Aligned,Switzerland,Switzerland,49
+Session 19,Frequency Synthesizers and Series-Resonance VCOs,19.11,A 13GHz Charge-Pump PLL Achieving 15.8fsrms Integrated Jitter,China,China,49
+Session 20,Sensors and Actuators for Health & Autonomy,20.1,A 3.5×3.5mm2 1.47mW/ch 16-Channel MSS-CMOS,Japan,United States,50
+Session 20,Sensors and Actuators for Health & Autonomy,20.2,"A 67μW/channel, 0.13nW/synapse/b Nose-on-a-Chip for",China,Taiwan,50
+Session 20,Sensors and Actuators for Health & Autonomy,20.3,An RFID-Inspired One-Step Packaged Multimode Bio-,United States,Taiwan,50
+Session 20,Sensors and Actuators for Health & Autonomy,20.4,MEMS-Free 4096-Pixel CMOS E-Nose Gas-Sensor Array with,Switzerland,Switzerland,50
+Session 20,Sensors and Actuators for Health & Autonomy,20.5,Millimeter-Sized 0.1pM LoD Wireless 16-Channel,China,China,50
+Session 20,Sensors and Actuators for Health & Autonomy,20.6,Fully Integrated Self-Propelling Microrobot in 180nm CMOS with,China,China,51
+Session 20,Sensors and Actuators for Health & Autonomy,20.7,A 384-Site Chip Platform for Biochemical Applications with,Ireland,United Kingdom,51
+Session 20,Sensors and Actuators for Health & Autonomy,20.8,A 94.8nW Battery-Free Intelligent Silicon Platform Enabling,"Macau, China",Portugal,51
+Session 20,Sensors and Actuators for Health & Autonomy,20.9,An Autonomous and Lightweight Microactuator Driving System,France,France,51
+Session 20,Sensors and Actuators for Health & Autonomy,20.10,A 200GHz 200-Pixel 2D Near-Field Imager for Biomedical,United States,United States,51
+Session 20,Sensors and Actuators for Health & Autonomy,20.11,A Crystal-less BodyID with an Asynchronous Clockless,United States,United States,51
+Session 20,Sensors and Actuators for Health & Autonomy,20.12,A 3×3.3mm Conﬁgurable γ Photon Spectrometer for Precision,United States,United States,51
+Session 21,Compute and USB Power,21.1,A 12A 89.3% Peak Efﬁciency and 26mV Undershoot 12-to-1V,China,China,52
+Session 21,Compute and USB Power,21.2,A Dual-Input Bidirectional 3-Level Battery Charger with,Korea,Korea,52
+Session 21,Compute and USB Power,21.3,A Segmented-Interlacing Multi-Phase Hybrid Converter with,"Macau, China",Portugal,52
+Session 21,Compute and USB Power,21.4,A 97.4%-Peak-Efﬁciency Always-Half-Inductor-Current Hybrid,Korea,Korea,52
+Session 21,Compute and USB Power,21.5,A Fully Integrated Multi-Phase Voltage Regulator with Enhanced,United States,United States,52
+Session 21,Compute and USB Power,21.6,A 2A Fully Analog Distribution LDO with Noise Immunity for an,Korea,Korea,53
+Session 21,Compute and USB Power,21.7,Merging Hybrid and Multi-Phase Topologies: A 6-Phase,United States,France,53
+Session 21,Compute and USB Power,21.8,HOOP: A Scalable Hybrid DC-DC Converter Ring for,"Macau, China",Germany,53
+Session 21,Compute and USB Power,21.9,A 20MHz & 1MHz Dual-Loop Non-Uniform-Multi-Inductor,"Macau, China",China,53
+Session 22,Memory Interface,22.1,A 0.275pJ/b 42Gb/s/pin Clock-Referenced PAM3 Transceiver,Korea,United States,54
+Session 22,Memory Interface,22.2,An 850μW 2-to-5GHz Jitter-Filtering and Instant-Toggling,Korea,Korea,54
+Session 22,Memory Interface,22.3,A 42Gb/s Single-Ended Hybrid-DFE PAM-3 Receiver for GDDR7,Korea,Korea,54
+Session 22,Memory Interface,22.4,A 32-to-50Gb/s/pin Single-Ended PAM-4 Transmitter with a,Korea,Korea,54
+Session 22,Memory Interface,22.5,A 0.3pJ/b 32Gb/s/pin Single-Ended PAM-4 Receiver with a,Korea,Korea,54
+Session 11,(Unknown),11.1,A 256-Element Ka-Band CMOS Phased-Array Receiver Using,,,55
+Session 11,(Unknown),11.4,A Gm-C RF Quadrature-Current-Generation Technique with 40dB,,,55
+Session 15,Neural Interfaces and Edge Intelligence,15.3,A 65nm Uncertainty-Quantiﬁable Ventricular Arrhythmia,,,55
+Session 16,Invited Industry,16.1,Tomahawk5: 51.2Tb/s 5nm Monolithic Switch Chip for AI/ML,,,55
+Session 16,Invited Industry,16.2,RNGD: A 5nm Tensor-Contraction Processor for Power-Efﬁcient,,,55
+Session 20,Sensors and Actuators for Health & Autonomy,20.4,MEMS-Free 4096-Pixel CMOS E-Nose Gas-Sensor Array with,,,55
+Session 20,Sensors and Actuators for Health & Autonomy,20.7,A 384-Site Chip Platform for Biochemical Applications with,,,55
+Session 20,Sensors and Actuators for Health & Autonomy,20.10,A 200GHz 200-Pixel 2D Near-Field Imager for Biomedical,,,55
+Session 20,Sensors and Actuators for Health & Autonomy,20.11,A Crystal-less BodyID with an Asynchronous Clockless,,,55
+Session 20,Sensors and Actuators for Health & Autonomy,20.12,A 3×3.3mm Conﬁgurable γ Photon Spectrometer for Precision,,,55
+Session 21,Compute and USB Power,21.5,A Fully Integrated Multi-Phase Voltage Regulator with Enhanced,,,55
+Session 23,AI-Accelerators,23.2,A 28nm 0.22μJ/Token Memory-Compute-Intensity-Aware,,,55
+Session 23,AI-Accelerators,23.3,EdgeDiff: 418.4mJ/Inference Multi-Modal Few-Step Diffusion,,,55
+Session 23,AI-Accelerators,23.7,BROCA: A 52.4-to-559.2mW Mobile Social Agent System-on-Chip,,,55
+Session 23,AI-Accelerators,23.9,Slim-Llama: A 4.69mW Large-Language-Model Processor with,,,55
+Session 25,High-Concepts at High Frequencies,25.2,A 4GS/s Fully Analog 256×256 MP-Based Cross-Correlator with,,,55
+Session 27,Sensor Interfaces,27.1,A 3-Axis MEMS Gyroscope with 2.8ms Wake-Up Time Enabled by,,,56
+Session 27,Sensor Interfaces,27.5,"A 4,100μm2 Wire-Metal-Based Temperature Sensor with a",,,56
+Session 29,SRAM,29.4,A 38Mb/mm2 380/540mV Dual-Rail SRAM in 3nm-FinFET,,,56
+Session 36,Ultra-High-Density D2D and High-Performance,36.3,A 0.29pJ/b 5.27Tb/s/mm UCIe Advanced Package Link in 3nm,,,56
+Session 37,Design-Technology Optimization and Digital Accelerators,37.2,A 2-Dimensional mm-Scale Network-on-Textiles (kNOTs) for,,,56
+Session 37,Design-Technology Optimization and Digital Accelerators,37.4,SHINSAI: A 586mm2 Reusable Active TSV Interposer with,,,56
+Session 37,Design-Technology Optimization and Digital Accelerators,37.7,A 28nm 18.1μJ/Acquisition End-to-End GPS Acquisition,,,56
+Session 23,AI-Accelerators,23.1,T-REX: A 68-to-567μs/Token 0.41-to-3.95μJ/Token Transformer,United States,United States,58
+Session 23,AI-Accelerators,23.2,A 28nm 0.22μJ/Token Memory-Compute-Intensity-Aware,"Hong Kong, China","Hong Kong, China",58
+Session 23,AI-Accelerators,23.3,EdgeDiff: 418.4mJ/Inference Multi-Modal Few-Step Diffusion,Korea,Korea,58
+Session 23,AI-Accelerators,23.4,Nebula: A 28nm 109.8TOPS/W 3D PNN Accelerator Featuring,China,China,58
+Session 23,AI-Accelerators,23.5,MAE: A 3nm 0.168mm2 576MAC Mini Autoencoder with,Taiwan,Taiwan,59
+Session 23,AI-Accelerators,23.6,MEGA.mini: A Universal Generative AI Processor with a New,United States,Korea,59
+Session 23,AI-Accelerators,23.7,BROCA: A 52.4-to-559.2mW Mobile Social Agent System-on-Chip,Korea,Korea,59
+Session 23,AI-Accelerators,23.8,An 88.36TOPS/W Bit-Level-Weight-Compressed Large-Language-,China,China,59
+Session 23,AI-Accelerators,23.9,Slim-Llama: A 4.69mW Large-Language-Model Processor with,Korea,Korea,59
+Session 23,AI-Accelerators,23.10,HuMoniX: A 57.3fps 12.8TFLOPS/W Text-to-Motion Processor,Korea,Korea,59
+Session 24,High-Frequency ADCs,24.1,A 12b 3GS/s Pipelined ADC with Gated-LMS-Based,China,China,60
+Session 24,High-Frequency ADCs,24.2,A 14b 1GS/s Single-Channel Pipelined ADC with a,China,China,60
+Session 24,High-Frequency ADCs,24.3,A PVT-Robust 2× Interleaved 2.2GS/s ADC with,"Macau, China",Portugal,60
+Session 24,High-Frequency ADCs,24.4,A 10b 3GS/s Time-Domain ADC with Mutually Exclusive,"Macau, China",Portugal,60
+Session 24,High-Frequency ADCs,24.5,A 72GS/s 9b Time-Interleaved Pipeline-SAR ADC Achieving,"Macau, China",Portugal,61
+Session 24,High-Frequency ADCs,24.6,A Power- and Area-Efﬁcient 4nm Self-Calibrated 12b/16GS/s,Taiwan,United States,61
+Session 24,High-Frequency ADCs,24.7,An 8b 10GS/s 2-Channel Time-Interleaved Pipelined ADC with,China,China,61
+Session 24,High-Frequency ADCs,24.8,A 12GS/s 9b 16× Time-Interleaved SAR ADC in 16nm FinFET,United States,Ireland,61
+Session 25,High-Concepts at High Frequencies,25.1,A Physics-Inspired Oscillator-Based Mixed-Signal Optimization,United States,United States,62
+Session 25,High-Concepts at High Frequencies,25.2,A 4GS/s Fully Analog 256×256 MP-Based Cross-Correlator with,United States,United States,62
+Session 25,High-Concepts at High Frequencies,25.3,AI-Enabled Design Space Discovery and End-to-end Synthesis for,United States,United States,62
+Session 25,High-Concepts at High Frequencies,25.4,A Micromachined Heterogeneously Integrated Active-Probe,Jordan,United States,62
+Session 25,High-Concepts at High Frequencies,25.5,A 99.5mW/port DC-to-40GHz Integrated Channel Analyzer for,China,China,62
+Session 26,(Unknown),26.1,A 24GHz Direct Digital Transmitter Using Multiphase,United States,China,63
+Session 26,(Unknown),26.2,A Wideband Replicas-Rejection Digital Transmitter Using,China,China,63
+Session 26,(Unknown),26.3,A Crystal-less Frequency-Modulation Transmitter IC with Joint,United States,United States,63
+Session 26,(Unknown),26.4,A 24-to-29GHz Compact Transmit/Receive Front-End Module,United States,United States,63
+Session 26,(Unknown),26.5,A 17.7-to-29.5GHz Transceiver Front-End with 3.3dB NF,China,United States,63
+Session 27,Sensor Interfaces,27.1,A 3-Axis MEMS Gyroscope with 2.8ms Wake-Up Time Enabled by,China,China,64
+Session 27,Sensor Interfaces,27.2,A Voltage-Biased CMOS Hall Sensor with 1.0μT (3σ) Offset and a,Netherlands,China,64
+Session 27,Sensor Interfaces,27.3,A Sub-1V 14b 5.8nW/Hz BW/Power-Scalable CT Sensor Interface,China,China,64
+Session 27,Sensor Interfaces,27.4,A BJT-Based Temperature Sensor with an 80fJ∙K2 Resolution FoM,Netherlands,Netherlands,64
+Session 27,Sensor Interfaces,27.5,"A 4,100μm2 Wire-Metal-Based Temperature Sensor with a","Macau, China",Portugal,64
+Session 28,(Unknown),28.1,An 18.5nF-Input-Range PM-SAR-Hybrid Capacitance-to-Digital,Korea,United Arab Emirates,65
+Session 28,(Unknown),28.2,A 189.3dB-FoMS 14.5fJ/Conversion-Step Continuous-Time,Korea,United Arab Emirates,65
+Session 28,(Unknown),28.3,A 185.2dB-FoMs 8.7aFrms Zoomed Capacitance-to-Digital,China,China,65
+Session 28,(Unknown),28.4,A 143dB-Dynamic-Range 119dB-CMRR Capacitance-to-Digital,China,Netherlands,65
+Session 29,SRAM,29.1,A 38.1Mb/mm2 SRAM in a 2nm-CMOS-Nanosheet Technology for,Taiwan,Taiwan,66
+Session 29,SRAM,29.2,A 0.021μm2 High-Density SRAM in Intel-18A-RibbonFET,United States,United States,66
+Session 29,SRAM,29.3,A 3nm FinFET 2.2Gsearch/s 0.305fJ/b TCAM with Dynamically,United States,Singapore,66
+Session 29,SRAM,29.4,A 38Mb/mm2 380/540mV Dual-Rail SRAM in 3nm-FinFET,United States,India,66
+Session 29,SRAM,29.5,A 3nm 3.6GHz Dual-Port SRAM with Backend-RC Optimization,Taiwan,Japan,66
+Session 30,(Unknown),30.1,A 28Gb/mm2 4XX-Layer 1Tb 3b/cell WF-Bonding 3D-NAND Flash,Korea,Korea,67
+Session 30,(Unknown),30.2,A 1Tb 3b/cell 3D-Flash Memory with a 29%-Improved-Energy-,United States,United States,67
+Session 30,(Unknown),30.3,A 24Gb 42.5Gb/s GDDR7 DRAM with Low-Power-WCK,Korea,Korea,67
+Session 30,(Unknown),30.4,A 16Gb 12.7Gb/s/pin LPDDR5-Ultra-Pro DRAM with 4-Phase,Korea,Korea,67
+Session 30,(Unknown),30.5,A 321-Layer 2Tb 4b/cell 3D-NAND-Flash Memory with a 75MB/s,United States,United States,67
+Session 30,(Unknown),30.6,A 64Gb DDR4 STT-MRAM Using a Time-Controlled Discharge-,Japan,Japan,67
+Session 31,Energy Harvesting and IoT Power,31.1,An Inductor-less Capacitor-less Synchronous,Netherlands,China,68
+Session 31,Energy Harvesting and IoT Power,31.2,A Biased-SECE Interface for Piezoelectric Energy Harvesting with,Korea,Korea,68
+Session 31,Energy Harvesting and IoT Power,31.3,A Rectiﬁer-less Piezoelectric Energy-Harvesting Interface with a,Netherlands,China,68
+Session 31,Energy Harvesting and IoT Power,31.4,A 91.25% Peak-Power-Conversion-Efﬁciency Capacitive,"Macau, China",Portugal,68
+Session 32,Isolated Power and Gate Drivers,32.1,A 180MHz 45.3%-Peak-Efﬁciency Isolated Converter Using,"Macau, China",Portugal,69
+Session 32,Isolated Power and Gate Drivers,32.2,A Single-Link Multi-Domain-Output (SLiMDO) Isolated DC-DC,United States,United States,69
+Session 32,Isolated Power and Gate Drivers,32.3,An Accurate Secondary-Side Controller with GaN-Based CGS,Taiwan,Taiwan,69
+Session 32,Isolated Power and Gate Drivers,32.4,A Dual-LC-Resonant Isolated DC-DC Converter Achieving 65.4%,China,China,69
+Session 32,Isolated Power and Gate Drivers,32.5,A 2W 53.2%-Peak-Efﬁciency Multi-Core Isolated DC-DC Converter,China,China,69
+Session 32,Isolated Power and Gate Drivers,32.6,A Dynamic-RON-Diminished Bidirectional GaN Load Switch with,Taiwan,Taiwan,69
+Session 33,Components for Beyond 100GHz,33.1,A 232-to-260GHz CMOS Ampliﬁer-Multiplier Chain with a,United States,United States,70
+Session 33,Components for Beyond 100GHz,33.2,A 216-to-226GHz Watt-Level GaN Solid-State Power Ampliﬁer,China,China,70
+Session 33,Components for Beyond 100GHz,33.3,A 125-to-170GHz Power-Efﬁcient Phase Shifter in SiGe,Italy,Italy,70
+Session 33,Components for Beyond 100GHz,33.4,A Wideband Bidirectional Calibration-Free Frequency/Switching-,Switzerland,Switzerland,70
+Session 33,Components for Beyond 100GHz,33.5,A 224GHz 19.9% TR Varactor-less VCO Utilizing a Multi-Section,United States,United States,70
+Session 34,Digital PLLs and Waveform-Shaping VCOs,34.1,"A 65fsrms-Jitter and -272dB-FoMjitter,N 10.1GHz Fractional-N Digital",Korea,Korea,71
+Session 34,Digital PLLs and Waveform-Shaping VCOs,34.2,A 380μW and -242.8dB FoM Digital-PLL-Based GFSK Modulator,Austria,Austria,71
+Session 34,Digital PLLs and Waveform-Shaping VCOs,34.3,A 4.75GHz Digital PLL with 45.8fs Integrated-Jitter and 257dB,Italy,Switzerland,71
+Session 34,Digital PLLs and Waveform-Shaping VCOs,34.4,A 9.05-to-37.0GHz LO Generator with Magnetic Mode Switching,United States,United States,71
+Session 34,Digital PLLs and Waveform-Shaping VCOs,34.5,An 18.5-to-23.6GHz Quad-Core Class-F23 Oscillator Without,China,China,71
+Session 34,Digital PLLs and Waveform-Shaping VCOs,34.6,A 47.3-to-58.4GHz Differential Quasi-Class-E Colpitts Oscillator,"Hong Kong, China","Hong Kong, China",71
+Session 35,Implantable and Wearable Biomedical Devices,35.1,A Single-Inductor-Based High-Voltage Transmit Beamformer for,Netherlands,Netherlands,72
+Session 35,Implantable and Wearable Biomedical Devices,35.2,A Spatial-Domain Compressive-Sensing Photoacoustic Imager,United States,United States,72
+Session 35,Implantable and Wearable Biomedical Devices,35.3,A 30MHz Wideband 92.7dB SNR 99.6% Accuracy Bioimpedance,United Kingdom,United Kingdom,72
+Session 35,Implantable and Wearable Biomedical Devices,35.4,A Miniature Biomedical Implant Secured by Two-Factor,United States,United States,72
+Session 35,Implantable and Wearable Biomedical Devices,35.5,A Wireless Adiabatic Stimulator System with Current-Mode,Korea,Korea,73
+Session 35,Implantable and Wearable Biomedical Devices,35.6,An Enhanced-Frequency-Splitting-Based Wireless Power and,Korea,Korea,73
+Session 35,Implantable and Wearable Biomedical Devices,35.7,A Programming-Free Three-Dimensional Resonant Current-Mode,Korea,Korea,73
+Session 35,Implantable and Wearable Biomedical Devices,35.8,DustNet: A Network of Time-Division Multiplexed Ultrasonic,United States,United States,73
+Session 36,Ultra-High-Density D2D and High-Performance,36.1,A 32Gb/s 10.5Tb/s/mm 0.6pJ/b UCIe-Compliant Low-Latency,Taiwan,United States,74
+Session 36,Ultra-High-Density D2D and High-Performance,36.2,A 64Gb/s/wire 10.5Tb/s/mm/layer Single-Ended Simultaneous,China,China,74
+Session 36,Ultra-High-Density D2D and High-Performance,36.3,A 0.29pJ/b 5.27Tb/s/mm UCIe Advanced Package Link in 3nm,United States,United States,74
+Session 36,Ultra-High-Density D2D and High-Performance,36.4,A 0.9pJ/b 108Gb/s PAM-4 VCSEL-Based Direct-Drive Optical,United States,United States,74
+Session 36,Ultra-High-Density D2D and High-Performance,36.5,A Low-Latency 200Gb/s PAM-4 Heterogeneous Transceiver in,China,China,75
+Session 36,Ultra-High-Density D2D and High-Performance,36.6,A 112Gb/s 0.61pJ/b PAM-4 Linear TIA Supporting Extended,China,China,75
+Session 36,Ultra-High-Density D2D and High-Performance,36.7,A 1.54pJ/b 64Gb/s 16-QAM Intradyne Coherent Optical Receiver,United States,United States,75
+Session 36,Ultra-High-Density D2D and High-Performance,36.8,A 100Gbaud 4Vppd Distributed Linear Driver with Cross-Folded,China,"Hong Kong, China",75
+Session 36,Ultra-High-Density D2D and High-Performance,36.9,A 212Gb/s PAM-4 Retimer with Integrated High-Swing Optical,United States,Italy,75
+Session 37,Design-Technology Optimization and Digital Accelerators,37.1,IBM Telum II Processor Design-Technology Co-Optimizations for,United States,Germany,76
+Session 37,Design-Technology Optimization and Digital Accelerators,37.2,A 2-Dimensional mm-Scale Network-on-Textiles (kNOTs) for,United States,United States,76
+Session 37,Design-Technology Optimization and Digital Accelerators,37.3,Monolithic In-Memory Computing Microprocessor for End-to-End,Korea,United States,76
+Session 37,Design-Technology Optimization and Digital Accelerators,37.4,SHINSAI: A 586mm2 Reusable Active TSV Interposer with,China,China,76
+Session 37,Design-Technology Optimization and Digital Accelerators,37.5,SKADI: A 28nm Complete K-SAT Solver Featuring Dual-Path,China,China,77
+Session 37,Design-Technology Optimization and Digital Accelerators,37.6,A 22nm 60.81TFLOPS/W Diffusion Accelerator with,China,China,77
+Session 37,Design-Technology Optimization and Digital Accelerators,37.7,A 28nm 18.1μJ/Acquisition End-to-End GPS Acquisition,Korea,United States,77
+Session 37,Design-Technology Optimization and Digital Accelerators,37.8,A 13.5μW 35-Keyword End-to-End Keyword Spotting System,Korea,United States,77

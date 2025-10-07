@@ -1,19 +1,25 @@
 country,first_author_count,first_author_share(%),last_author_count,last_author_share(%)
-China,92,36.22,79,31.1
-United States,55,21.65,61,24.02
-Korea,46,18.11,39,15.35
-Taiwan,20,7.87,17,6.69
-Netherlands,8,3.15,4,1.57
-Switzerland,7,2.76,9,3.54
-Japan,6,2.36,7,2.76
-Germany,5,1.97,6,2.36
-India,2,0.79,3,1.18
-United Kingdom,2,0.79,4,1.57
-France,2,0.79,4,1.57
-Canada,2,0.79,3,1.18
-Ireland,2,0.79,1,0.39
-Italy,2,0.79,2,0.79
-Singapore,1,0.39,2,0.79
-Belgium,1,0.39,2,0.79
-Austria,1,0.39,1,0.39
-Portugal,0,0.0,10,3.94
+China,75.0,29.07,75.0,29.07
+United States,56.0,21.71,62.0,24.03
+Korea,46.0,17.83,39.0,15.12
+Taiwan,20.0,7.75,17.0,6.59
+"Macau, China",14.0,5.43,1.0,0.39
+Netherlands,8.0,3.1,4.0,1.55
+Switzerland,7.0,2.71,7.0,2.71
+Japan,7.0,2.71,8.0,3.1
+Germany,6.0,2.33,7.0,2.71
+"Hong Kong, China",3.0,1.16,3.0,1.16
+Canada,2.0,0.78,3.0,1.16
+Italy,2.0,0.78,2.0,0.78
+Ireland,2.0,0.78,1.0,0.39
+United Kingdom,2.0,0.78,4.0,1.55
+France,2.0,0.78,4.0,1.55
+India,2.0,0.78,3.0,1.16
+Singapore,1.0,0.39,2.0,0.78
+Belgium,1.0,0.39,1.0,0.39
+Jordan,1.0,0.39,0.0,0.0
+Austria,1.0,0.39,1.0,0.39
+Portugal,0.0,0.0,10.0,3.88
+United Arab Emirates,0.0,0.0,2.0,0.78
+Denmark,0.0,0.0,1.0,0.39
+Finland,0.0,0.0,1.0,0.39
