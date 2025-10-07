@@ -1,0 +1,81 @@
+subcommittee,country,first_author_count,first_author_share(%),last_author_count,last_author_share(%)
+Analog Techniques ,China,8,47.06,7,41.18
+Analog Techniques ,Netherlands,2,11.76,0,0.0
+Analog Techniques ,United States,2,11.76,3,17.65
+Analog Techniques ,Germany,1,5.88,2,11.76
+Analog Techniques ,Taiwan,1,5.88,1,5.88
+Analog Techniques ,Korea,1,5.88,1,5.88
+Analog Techniques ,Switzerland,1,5.88,1,5.88
+Analog Techniques ,Japan,1,5.88,1,5.88
+Analog Techniques ,France,0,0.0,1,5.88
+Compute-In-Memory ,China,5,35.71,5,35.71
+Compute-In-Memory ,Taiwan,3,21.43,3,21.43
+Compute-In-Memory ,Canada,2,14.29,1,7.14
+Compute-In-Memory ,Netherlands,1,7.14,0,0.0
+Compute-In-Memory ,United States,1,7.14,5,35.71
+Compute-In-Memory ,Switzerland,1,7.14,0,0.0
+Compute-In-Memory ,Korea,1,7.14,0,0.0
+Cool Computation Circuits ,China,2,33.33,2,33.33
+Cool Computation Circuits ,Switzerland,1,16.67,1,16.67
+Cool Computation Circuits ,Germany,1,16.67,0,0.0
+Cool Computation Circuits ,France,1,16.67,1,16.67
+Cool Computation Circuits ,Japan,1,16.67,2,33.33
+Frequency Synthesizers and Series-Resonance VCOs ,China,45,34.35,35,26.72
+Frequency Synthesizers and Series-Resonance VCOs ,United States,34,25.95,33,25.19
+Frequency Synthesizers and Series-Resonance VCOs ,Korea,27,20.61,22,16.79
+Frequency Synthesizers and Series-Resonance VCOs ,Taiwan,8,6.11,7,5.34
+Frequency Synthesizers and Series-Resonance VCOs ,Netherlands,5,3.82,3,2.29
+Frequency Synthesizers and Series-Resonance VCOs ,Switzerland,3,2.29,5,3.82
+Frequency Synthesizers and Series-Resonance VCOs ,Japan,2,1.53,2,1.53
+Frequency Synthesizers and Series-Resonance VCOs ,Ireland,2,1.53,1,0.76
+Frequency Synthesizers and Series-Resonance VCOs ,Italy,2,1.53,2,1.53
+Frequency Synthesizers and Series-Resonance VCOs ,France,1,0.76,2,1.53
+Frequency Synthesizers and Series-Resonance VCOs ,Austria,1,0.76,1,0.76
+Frequency Synthesizers and Series-Resonance VCOs ,United Kingdom,1,0.76,3,2.29
+Frequency Synthesizers and Series-Resonance VCOs ,Portugal,0,0.0,10,7.63
+Frequency Synthesizers and Series-Resonance VCOs ,Germany,0,0.0,2,1.53
+Frequency Synthesizers and Series-Resonance VCOs ,Belgium,0,0.0,1,0.76
+Frequency Synthesizers and Series-Resonance VCOs ,Singapore,0,0.0,1,0.76
+Frequency Synthesizers and Series-Resonance VCOs ,India,0,0.0,1,0.76
+Hardware Security ,Singapore,1,16.67,0,0.0
+Hardware Security ,China,1,16.67,2,33.33
+Hardware Security ,Taiwan,1,16.67,1,16.67
+Hardware Security ,Korea,1,16.67,1,16.67
+Hardware Security ,Germany,1,16.67,1,16.67
+Hardware Security ,United States,1,16.67,1,16.67
+Imagers and Displays ,Korea,7,70.0,7,70.0
+Imagers and Displays ,United States,1,10.0,1,10.0
+Imagers and Displays ,Japan,1,10.0,1,10.0
+Imagers and Displays ,China,1,10.0,1,10.0
+Innovations from Outside the (ISSCC’s) Box ,United States,4,100.0,4,100.0
+Invited Industry ,United States,2,50.0,2,50.0
+Invited Industry ,Korea,2,50.0,2,50.0
+Noise-Shaping and SAR-Based ADCs ,China,7,87.5,7,87.5
+Noise-Shaping and SAR-Based ADCs ,Belgium,1,12.5,1,12.5
+Processors ,Taiwan,4,28.57,3,21.43
+Processors ,China,4,28.57,3,21.43
+Processors ,United States,2,14.29,4,28.57
+Processors ,India,2,14.29,1,7.14
+Processors ,Korea,1,7.14,1,7.14
+Processors ,Germany,1,7.14,1,7.14
+Processors ,Netherlands,0,0.0,1,7.14
+RF and mm-Wave Wireless Receivers ,China,3,60.0,3,60.0
+RF and mm-Wave Wireless Receivers ,Japan,1,20.0,1,20.0
+RF and mm-Wave Wireless Receivers ,United States,1,20.0,0,0.0
+RF and mm-Wave Wireless Receivers ,Canada,0,0.0,1,20.0
+Transceiver Chipsets for Communication and Radar ,China,3,60.0,2,40.0
+Transceiver Chipsets for Communication and Radar ,Switzerland,1,20.0,1,20.0
+Transceiver Chipsets for Communication and Radar ,Korea,1,20.0,1,20.0
+Transceiver Chipsets for Communication and Radar ,Singapore,0,0.0,1,20.0
+Ubiquitous Power Delivery ,China,7,63.64,6,54.55
+Ubiquitous Power Delivery ,United States,2,18.18,3,27.27
+Ubiquitous Power Delivery ,Korea,2,18.18,2,18.18
+Ultra-High-Speed Wireline ,China,6,31.58,6,31.58
+Ultra-High-Speed Wireline ,United States,5,26.32,5,26.32
+Ultra-High-Speed Wireline ,Taiwan,3,15.79,2,10.53
+Ultra-High-Speed Wireline ,Korea,3,15.79,2,10.53
+Ultra-High-Speed Wireline ,Germany,1,5.26,0,0.0
+Ultra-High-Speed Wireline ,United Kingdom,1,5.26,1,5.26
+Ultra-High-Speed Wireline ,Canada,0,0.0,1,5.26
+Ultra-High-Speed Wireline ,Switzerland,0,0.0,1,5.26
+Ultra-High-Speed Wireline ,India,0,0.0,1,5.26
