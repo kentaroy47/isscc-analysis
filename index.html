@@ -15,8 +15,7 @@
     h1{font-size:20px;margin:0}
     .container{max-width:1100px;margin:24px auto;padding:0 20px}
     .controls{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:16px}
-    select,button{appearance:none;background:var(--card);color:white;border:1px solid var(--grid);border-radius:12px;padding:10px 12px;font:inherit}
-    button{cursor:pointer}
+    select{appearance:none;background:var(--card);color:white;border:1px solid var(--grid);border-radius:12px;padding:10px 12px;font:inherit}
     .cards{display:grid;grid-template-columns:2fr 1fr;gap:16px}
     .card{background:var(--card);border:1px solid var(--grid);border-radius:16px;padding:16px}
     .card h2{font-size:16px;margin:0 0 8px 0}
@@ -29,15 +28,14 @@
     table{width:100%;border-collapse:collapse}
     th,td{font-size:12px;padding:8px;border-bottom:1px solid var(--grid)}
     th{text-align:left;color:var(--muted)}
-    .footer{margin-top:24px;color:var(--muted);font-size:12px}
     .badge{background:#12233d;color:#9ec3ff;border:1px solid var(--grid);padding:2px 6px;border-radius:6px;margin-left:6px}
   </style>
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 </head>
 <body>
   <header>
-    <h1>ISSCC 2025 — Country Share Dashboard <span class="badge">Static Web</span></h1>
-    <div class="muted" style="margin-top:6px">Visualize country shares overall and by subcommittee (session theme). Upload CSVs to the same folder.</div>
+    <h1>ISSCC 2025 — Country Share Dashboard <span class="badge">Merged Subcommittees</span></h1>
+    <div class="muted" style="margin-top:6px">This build uses the <b>merged</b> subcommittee file you created.</div>
   </header>
 
   <div class="container">
@@ -46,18 +44,18 @@
         <label class="muted" for="scope">Scope</label>
         <select id="scope">
           <option value="overall">Overall</option>
-          <option value="subcommittee">By Subcommittee</option>
+          <option value="subcommittee" selected>By Subcommittee (Merged)</option>
         </select>
       </div>
       <div>
         <label class="muted" for="metric">Metric</label>
         <select id="metric">
-          <option value="first">First Author</option>
+          <option value="first" selected>First Author</option>
           <option value="last">Last Author</option>
         </select>
       </div>
-      <div id="subcomWrap" style="display:none">
-        <label class="muted" for="subcom">Subcommittee (session theme)</label>
+      <div id="subcomWrap">
+        <label class="muted" for="subcom">Subcommittee</label>
         <select id="subcom"></select>
       </div>
     </div>
@@ -75,84 +73,49 @@
         <table id="tbl"><thead><tr><th>Country</th><th>Count</th><th>Share (%)</th></tr></thead><tbody></tbody></table>
       </div>
     </div>
-
-    <div class="card" style="margin-top:16px">
-      <h2>Data Preview</h2>
-      <div class="muted" style="margin-bottom:8px">This mirrors the filtered view (first 25 rows).</div>
-      <table id="preview"><thead></thead><tbody></tbody></table>
-    </div>
-
-    <div class="footer">
-      <b>How to use on GitHub Pages</b>:
-      <ol>
-        <li>Put this <code>index.html</code> and the three CSVs in the repo root:</li>
-        <ul>
-          <li><code>overall_country_share.csv</code></li>
-          <li><code>subcommittee_country_share.csv</code></li>
-          <li><code>papers_raw.csv</code> (optional for audit)</li>
-        </ul>
-        <li>Settings → Pages → Source: <i>Deploy from a branch</i> → select <i>main</i> and <i>/ (root)</i>.</li>
-        <li>Open the Pages URL to view the dashboard.</li>
-      </ol>
-    </div>
   </div>
 
 <script>
 (async function(){
   const overallURL = 'overall_country_share.csv';
-  const subcomURL  = 'subcommittee_country_share.csv';
-  const papersURL  = 'papers_raw.csv';
-
+  const subcomURL  = 'subcommittee_country_share.csv'; // merged file
   const overall = await d3.csv(overallURL, d3.autoType).catch(()=>[]);
-  const subcom  = await d3.csv(subcomURL, d3.autoType).catch(()=>[]);
-  const papers  = await d3.csv(papersURL, d3.autoType).catch(()=>[]);
-
-  // ✅ デバッグ用にグローバルに公開
-  window.debugData = { overall, subcom, papers };
-  console.log('📊 Data loaded:', {
-    overall: overall.length,
-    subcom: subcom.length,
-    papers: papers.length
-  });
-  console.log('🔍 Subcom first row:', subcom[0]);
-  console.log('🔍 Subcom columns:', Object.keys(subcom[0] || {}));
+  const subcom  = await d3.csv(subcomURL,  d3.autoType).catch(()=>[]);
 
   const els = {
     scope: document.getElementById('scope'),
     metric: document.getElementById('metric'),
-    subcomWrap: document.getElementById('subcomWrap'),
     subcom: document.getElementById('subcom'),
     chart: document.getElementById('chart'),
-    tbl: document.getElementById('tbl').querySelector('tbody'),
-    previewHead: document.getElementById('preview').querySelector('thead'),
-    previewBody: document.getElementById('preview').querySelector('tbody')
+    tbl: document.getElementById('tbl').querySelector('tbody')
   };
 
-  // populate subcommittee list
-  const subList = Array.from(new Set(subcom.map(d=>d.subcommittee))).sort();
+  const subList = Array.from(new Set((subcom||[]).map(d=>d.subcommittee))).filter(Boolean).sort();
   els.subcom.innerHTML = subList.map(s=>`<option>${s}</option>`).join('');
+  if (!els.subcom.value && els.subcom.options.length) els.subcom.selectedIndex = 0;
+
+  function safeNum(v){ v = +v; return Number.isFinite(v) ? v : 0; }
 
   function getCurrentData(){
-    const metric = els.metric.value; // first or last
+    const metric = els.metric.value;
     const scope = els.scope.value;
+    const countKey = metric==='first' ? 'first_author_count' : 'last_author_count';
+    const shareKey = metric==='first' ? 'first_author_share(%)' : 'last_author_share(%)';
     if(scope==='overall'){
-      const countKey = metric==='first' ? 'first_author_count' : 'last_author_count';
-      const shareKey = metric==='first' ? 'first_author_share(%)' : 'last_author_share(%)';
-      return overall.map(d=>({country:d.country, count:+d[countKey]||0, share:+d[shareKey]||0})).sort((a,b)=>b.count-a.count);
+      return overall.map(d=>({country:d.country, count:safeNum(d[countKey]), share:safeNum(d[shareKey])})).sort((a,b)=>b.count-a.count);
     } else {
-      const sel = els.subcom.value;
-      const countKey = metric==='first' ? 'first_author_count' : 'last_author_count';
-      const shareKey = metric==='first' ? 'first_author_share(%)' : 'last_author_share(%)';
-      return subcom.filter(d=>d.subcommittee===sel).map(d=>({country:d.country, count:+d[countKey]||0, share:+d[shareKey]||0})).sort((a,b)=>b.count-a.count);
+      const sel = els.subcom.value || (els.subcom.options[0]?.value || null);
+      if (!sel) return [];
+      return subcom.filter(d=>d.subcommittee===sel).map(d=>({country:d.country, count:safeNum(d[countKey]), share:safeNum(d[shareKey])})).sort((a,b)=>b.count-a.count);
     }
   }
 
-  function renderChart(){
-    const data = getCurrentData().slice(0,20); // top 20
+  function render(){
+    const data = getCurrentData().slice(0,20);
     els.chart.innerHTML = '';
     const margin = {top:10,right:10,bottom:40,left:130};
     const w = els.chart.clientWidth - margin.left - margin.right;
-    const h = els.chart.clientHeight - margin.top - margin.bottom;
+    const h = 460 - margin.top - margin.bottom;
 
     const svg = d3.select(els.chart).append('svg')
       .attr('viewBox', `0 0 ${w+margin.left+margin.right} ${h+margin.top+margin.bottom}`)
@@ -166,36 +129,23 @@
       .attr('fill','var(--accent)');
 
     svg.append('g').call(d3.axisLeft(y).tickSize(0)).selectAll('text').style('fill','white').style('font-size','12px');
-    svg.append('g').attr('transform',`translate(0,${h})`).call(d3.axisBottom(x).ticks(5).tickFormat(d=>d+"%"))
+    svg.append('g').attr('transform',`translate(0,${h})`).call(d3.axisBottom(x).ticks(5).tickFormat(d=>d+'%'))
       .selectAll('text').style('fill','var(--muted)').style('font-size','12px');
 
     // labels
     svg.selectAll('.lbl').data(data).join('text').attr('class','lbl')
       .attr('x', d=>x(d.share)+6).attr('y', d=>y(d.country)+y.bandwidth()/2+4)
-      .text(d=>`${d.share.toFixed(1)}%`).style('font-size','11px').style('fill','#cfe2ff');
+      .text(d=>`${safeNum(d.share).toFixed(1)}%`).style('font-size','11px').style('fill','#cfe2ff');
+
+    // table
+    els.tbl.innerHTML = data.map(d=>`<tr><td>${d.country}</td><td>${d.count}</td><td>${safeNum(d.share).toFixed(2)}</td></tr>`).join('');
   }
 
-  function renderTable(){
-    const data = getCurrentData();
-    els.tbl.innerHTML = data.slice(0,20).map(d=>`<tr><td>${d.country}</td><td>${d.count}</td><td>${d.share.toFixed(2)}</td></tr>`).join('');
-  }
+  els.scope.addEventListener('change', render);
+  els.metric.addEventListener('change', render);
+  els.subcom.addEventListener('change', render);
 
-  function renderPreview(){
-    // Show raw papers for context (first 25)
-    const cols = Object.keys(papers[0]||{});
-    els.previewHead.innerHTML = `<tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr>`;
-    const rows = papers.slice(0,25).map(r=>`<tr>${cols.map(c=>`<td>${r[c]??''}</td>`).join('')}</tr>`).join('');
-    els.previewBody.innerHTML = rows;
-  }
-
-  function onScope(){ els.subcomWrap.style.display = els.scope.value==='subcommittee' ? 'block' : 'none'; renderAll(); }
-  function renderAll(){ renderChart(); renderTable(); renderPreview(); }
-
-  els.scope.addEventListener('change', onScope);
-  els.metric.addEventListener('change', renderAll);
-  els.subcom.addEventListener('change', renderAll);
-
-  onScope();
+  render();
 })();
 </script>
 </body>
