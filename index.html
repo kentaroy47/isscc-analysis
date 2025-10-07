@@ -98,13 +98,59 @@
   </div>
 
 <script>
+// Optional override: load a paper→subcommittee mapping if provided as CSV named
+// `paper_subcommittee_map.csv` in the same folder. If present, this mapping will
+// replace the subcommittee column in subcommittee_country_share.csv derived data.
+
 (async function(){
   const overallURL = 'overall_country_share.csv';
   const subcomURL  = 'subcommittee_country_share.csv';
   const papersURL  = 'papers_raw.csv';
 
   const overall = await d3.csv(overallURL, d3.autoType).catch(()=>[]);
-  const subcom  = await d3.csv(subcomURL, d3.autoType).catch(()=>[]);
+  let subcom  = await d3.csv(subcomURL, d3.autoType).catch(()=>[]);
+  // Try optional mapping
+  let map = await d3.csv('paper_subcommittee_map.csv', d3.autoType).catch(()=>null);
+  if(map && Array.isArray(map)){
+    // If mapping exists, we will recompute subcommittee-level shares on the fly using papers_raw + mapping.
+    // Build a paperNo->subcommittee dict
+    const mp = new Map(map.filter(d=>d['paper no.'] && d.subcommittee).map(d=>[String(d['paper no.']).trim(), String(d.subcommittee).trim()]));
+    // Join mapping to papers
+    const papers = await d3.csv(papersURL, d3.autoType).catch(()=>[]);
+    const withSub = papers.map(d=>({
+      ...d,
+      subcommittee: mp.get(String(d['paper no.']).trim()) || d.subcommittee || '(Unknown)'
+    }));
+    // Recompute aggregated subcommittee shares
+    function agg(rows){
+      const by = d3.group(rows, d=>d.subcommittee, d=>d['first author country']);
+      const byLast = d3.group(rows, d=>d.subcommittee, d=>d['last author country']);
+      const out = [];
+      for(const [sub, g] of by){
+        // first author
+        const firstCounts = new Map();
+        for(const [country, arr] of g){ if(country) firstCounts.set(country, (firstCounts.get(country)||0)+arr.length); }
+        const firstTotal = Array.from(firstCounts.values()).reduce((a,b)=>a+b,0);
+        // last author
+        const lastCounts = new Map();
+        for(const [country, arr] of (byLast.get(sub)||new Map())){ if(country) lastCounts.set(country, (lastCounts.get(country)||0)+arr.length); }
+        const lastTotal = Array.from(lastCounts.values()).reduce((a,b)=>a+b,0);
+        const countries = new Set([...firstCounts.keys(), ...lastCounts.keys()]);
+        for(const c of countries){
+          out.push({
+            subcommittee: sub,
+            country: c,
+            'first_author_count': firstCounts.get(c)||0,
+            'first_author_share(%)': firstTotal? ((firstCounts.get(c)||0)/firstTotal*100):0,
+            'last_author_count': lastCounts.get(c)||0,
+            'last_author_share(%)': lastTotal? ((lastCounts.get(c)||0)/lastTotal*100):0,
+          });
+        }
+      }
+      return out;
+    }
+    subcom = agg(withSub);
+  }
   const papers  = await d3.csv(papersURL, d3.autoType).catch(()=>[]);
 
   const els = {
@@ -119,16 +165,23 @@
   };
 
   // populate subcommittee list
-  const subList = Array.from(new Set(subcom.map(d=>d.subcommittee))).sort();
+  const subList = Array.from(new Set(subcom.map(d=>d.subcommittee))).filter(s=>s && s !== "" && s !== "(Unknown)").sort();
   els.subcom.innerHTML = subList.map(s=>`<option>${s}</option>`).join('');
+  if (subList.length && !els.subcom.value) { els.subcom.value = subList[0]; }
 
   function getCurrentData(){
     const metric = els.metric.value; // first or last
     const scope = els.scope.value;
+    const countKey = metric==='first' ? 'first_author_count' : 'last_author_count';
+    const shareKey = metric==='first' ? 'first_author_share(%)' : 'last_author_share(%)';
     if(scope==='overall'){
-      const countKey = metric==='first' ? 'first_author_count' : 'last_author_count';
-      const shareKey = metric==='first' ? 'first_author_share(%)' : 'last_author_share(%)';
       return overall.map(d=>({country:d.country, count:+d[countKey]||0, share:+d[shareKey]||0})).sort((a,b)=>b.count-a.count);
+    } else {
+      const sel = els.subcom.value || (els.subcom.options[0] ? els.subcom.options[0].value : null);
+      if (!sel) return [];
+      return subcom.filter(d=>d.subcommittee===sel).map(d=>({country:d.country, count:+d[countKey]||0, share:+d[shareKey]||0})).sort((a,b)=>b.count-a.count);
+    }
+  })).sort((a,b)=>b.count-a.count);
     } else {
       const sel = els.subcom.value;
       const countKey = metric==='first' ? 'first_author_count' : 'last_author_count';
@@ -178,7 +231,14 @@
     els.previewBody.innerHTML = rows;
   }
 
-  function onScope(){ els.subcomWrap.style.display = els.scope.value==='subcommittee' ? 'block' : 'none'; renderAll(); }
+  function onScope(){
+    const isSub = els.scope.value==='subcommittee';
+    els.subcomWrap.style.display = isSub ? 'block' : 'none';
+    if (isSub && !els.subcom.value && els.subcom.options.length) {
+      els.subcom.selectedIndex = 0;
+    }
+    renderAll();
+  }
   function renderAll(){ renderChart(); renderTable(); renderPreview(); }
 
   els.scope.addEventListener('change', onScope);

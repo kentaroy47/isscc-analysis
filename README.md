@@ -1,8 +1,6 @@
 # ISSCC 2025 Country Share Dashboard
-[Page](https://kentaroy47.github.io/isscc-analysis/)
 
 A static dashboard to visualize **country shares** (first / last author) overall and by session theme (used here as a proxy for subcommittees).
-
 
 ## Files
 - `index.html` — Single-file D3.js dashboard (no build tools required).
