@@ -107,6 +107,16 @@
   const subcom  = await d3.csv(subcomURL, d3.autoType).catch(()=>[]);
   const papers  = await d3.csv(papersURL, d3.autoType).catch(()=>[]);
 
+  // ✅ デバッグ用にグローバルに公開
+  window.debugData = { overall, subcom, papers };
+  console.log('📊 Data loaded:', {
+    overall: overall.length,
+    subcom: subcom.length,
+    papers: papers.length
+  });
+  console.log('🔍 Subcom first row:', subcom[0]);
+  console.log('🔍 Subcom columns:', Object.keys(subcom[0] || {}));
+
   const els = {
     scope: document.getElementById('scope'),
     metric: document.getElementById('metric'),
