@@ -312,12 +312,18 @@ Wireline,United States,6,32.22,5,27.22`;
                 document.getElementById('subcommittee-name').textContent = '- ' + selectedView;
             }
             
-            const share = authorType === 'first' ? 'firstAuthorShare' : 'lastAuthorShare';
             const count = authorType === 'first' ? 'firstAuthorCount' : 'lastAuthorCount';
             
-            const chartData = currentData
-                .filter(d => d[share] > 0)
-                .sort((a, b) => b[share] - a[share]);
+            // countからshareを再計算
+            const totalCount = currentData.reduce((sum, d) => sum + d[count], 0);
+            const dataWithRecalculatedShare = currentData.map(d => ({
+                ...d,
+                calculatedShare: totalCount > 0 ? (d[count] / totalCount * 100) : 0
+            }));
+            
+            const chartData = dataWithRecalculatedShare
+                .filter(d => d[count] > 0)
+                .sort((a, b) => b.calculatedShare - a.calculatedShare);
             
             // チャート更新
             if (chart) {
@@ -330,7 +336,7 @@ Wireline,United States,6,32.22,5,27.22`;
                 data: {
                     labels: chartData.map(d => d.country),
                     datasets: [{
-                        data: chartData.map(d => d[share].toFixed(2)),
+                        data: chartData.map(d => d.calculatedShare.toFixed(2)),
                         backgroundColor: COLORS
                     }]
                 },
@@ -373,7 +379,7 @@ Wireline,United States,6,32.22,5,27.22`;
                     <td class="px-4 py-3 text-sm text-slate-600">${index + 1}</td>
                     <td class="px-4 py-3 text-sm font-medium text-slate-800">${row.country}</td>
                     <td class="px-4 py-3 text-sm text-slate-600 text-right">${row[count]}</td>
-                    <td class="px-4 py-3 text-sm text-slate-600 text-right">${row[share].toFixed(2)}%</td>
+                    <td class="px-4 py-3 text-sm text-slate-600 text-right">${row.calculatedShare.toFixed(2)}%</td>
                 `;
                 tableBody.appendChild(tr);
             });
