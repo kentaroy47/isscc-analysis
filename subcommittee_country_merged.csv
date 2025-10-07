@@ -1,0 +1,119 @@
+subcommittee,country,first_author_count,first_author_share(%),last_author_count,last_author_share(%)
+(Unknown),Canada,0,0.0,1,3.85
+(Unknown),China,9,34.62,8,30.77
+(Unknown),Finland,0,0.0,1,3.85
+(Unknown),France,1,3.85,1,3.85
+(Unknown),Germany,1,3.85,0,0.0
+(Unknown),Japan,3,11.54,4,15.38
+(Unknown),Korea,5,19.23,3,11.54
+(Unknown),Netherlands,0,0.0,1,3.85
+(Unknown),Switzerland,1,3.85,0,0.0
+(Unknown),United Arab Emirates,0,0.0,2,7.69
+(Unknown),United States,6,23.08,5,19.23
+AI-Accelerators,China,2,20.0,2,20.0
+AI-Accelerators,"Hong Kong, China",1,10.0,1,10.0
+AI-Accelerators,Korea,4,40.0,5,50.0
+AI-Accelerators,Taiwan,1,10.0,1,10.0
+AI-Accelerators,United States,2,20.0,1,10.0
+Analog Techniques,China,7,36.11,5,25.0
+Analog Techniques,France,1,4.165,2,12.5
+Analog Techniques,Germany,2,20.835,2,20.835
+Analog Techniques,"Hong Kong, China",1,16.67,0,0.0
+Analog Techniques,Ireland,1,8.33,0,0.0
+Analog Techniques,Japan,1,8.33,0,0.0
+Analog Techniques,"Macau, China",2,14.165,0,0.0
+Analog Techniques,Netherlands,3,18.89,2,15.0
+Analog Techniques,Portugal,0,0.0,2,14.165
+Analog Techniques,Switzerland,1,8.33,1,8.33
+Analog Techniques,Taiwan,2,13.89,4,19.44666666666667
+Analog Techniques,United Kingdom,0,0.0,1,8.33
+Analog Techniques,United States,4,16.665,5,25.0
+Data Converters,Belgium,1,12.5,1,12.5
+Data Converters,China,10,62.5,10,62.5
+Data Converters,Ireland,0,0.0,1,12.5
+Data Converters,"Macau, China",3,37.5,0,0.0
+Data Converters,Portugal,0,0.0,3,37.5
+Data Converters,Taiwan,1,12.5,0,0.0
+Data Converters,United States,1,12.5,1,12.5
+Digital,China,4,24.305,4,24.305
+Digital,Germany,1,5.555,1,6.25
+Digital,India,0,0.0,1,11.11
+Digital,Korea,5,29.86,2,11.11
+Digital,Taiwan,1,11.11,0,0.0
+Digital,United Kingdom,1,11.11,1,11.11
+Digital,United States,5,29.165,8,47.22
+Frequency Synthesizers,Austria,1,16.67,1,16.67
+Frequency Synthesizers,China,5,26.515,5,26.515
+Frequency Synthesizers,"Hong Kong, China",1,16.67,1,16.67
+Frequency Synthesizers,Ireland,1,9.09,0,0.0
+Frequency Synthesizers,Italy,1,16.67,0,0.0
+Frequency Synthesizers,Japan,1,9.09,1,9.09
+Frequency Synthesizers,Korea,2,12.88,2,12.88
+Frequency Synthesizers,"Macau, China",2,18.18,0,0.0
+Frequency Synthesizers,Portugal,0,0.0,2,18.18
+Frequency Synthesizers,Switzerland,1,4.545,2,12.88
+Frequency Synthesizers,Taiwan,1,9.09,1,9.09
+Frequency Synthesizers,United Kingdom,0,0.0,1,9.09
+Frequency Synthesizers,United States,1,16.67,1,16.67
+Hardware Security,China,1,16.67,2,33.33
+Hardware Security,Germany,1,16.67,1,16.67
+Hardware Security,Korea,1,16.67,1,16.67
+Hardware Security,Singapore,1,16.67,0,0.0
+Hardware Security,Taiwan,1,16.67,1,16.67
+Hardware Security,United States,1,16.67,1,16.67
+Imagers and Displays,Canada,2,28.57,1,14.29
+Imagers and Displays,China,3,25.0,4,35.0
+Imagers and Displays,Japan,1,10.0,1,10.0
+Imagers and Displays,Korea,11,40.596666666666664,10,35.833333333333336
+Imagers and Displays,Netherlands,2,13.395,1,6.25
+Imagers and Displays,Switzerland,1,14.29,0,0.0
+Imagers and Displays,Taiwan,1,14.29,2,28.57
+Imagers and Displays,United Kingdom,1,12.5,1,12.5
+Imagers and Displays,United States,5,20.596666666666668,8,34.88
+Invited Industry,Denmark,0,0.0,1,25.0
+Invited Industry,Germany,1,25.0,1,25.0
+Invited Industry,Korea,3,37.5,3,37.5
+Invited Industry,United States,8,66.66666666666667,7,58.333333333333336
+Memory,China,5,71.43,4,57.14
+Memory,India,0,0.0,1,20.0
+Memory,Japan,0,0.0,1,20.0
+Memory,Korea,5,100.0,4,80.0
+Memory,"Macau, China",0,0.0,1,14.29
+Memory,Singapore,0,0.0,1,20.0
+Memory,Taiwan,4,34.285,2,17.145
+Memory,United States,3,20.0,3,18.096666666666668
+Power,China,8,22.4725,12,40.025
+Power,France,0,0.0,1,11.11
+Power,Germany,0,0.0,1,11.11
+Power,Korea,6,25.50333333333333,6,25.50333333333333
+Power,"Macau, China",7,23.295,0,0.0
+Power,Netherlands,2,50.0,0,0.0
+Power,Portugal,0,0.0,3,17.593333333333334
+Power,Taiwan,2,33.33,2,33.33
+Power,United States,5,19.023333333333333,5,18.349999999999998
+Processors,China,2,20.0,2,20.0
+Processors,India,2,20.0,1,10.0
+Processors,Korea,1,10.0,1,10.0
+Processors,Taiwan,3,30.0,2,20.0
+Processors,United States,2,20.0,4,40.0
+TD,China,2,20.0,2,20.0
+TD,Italy,1,20.0,1,20.0
+TD,Jordan,1,20.0,0,0.0
+TD,Switzerland,1,20.0,1,20.0
+TD,United States,5,50.0,6,60.0
+Wireless,China,8,52.725,7,42.725
+Wireless,Germany,0,0.0,1,9.09
+Wireless,Japan,1,9.09,1,9.09
+Wireless,Korea,2,14.545,2,14.545
+Wireless,Netherlands,1,9.09,0,0.0
+Wireless,Singapore,0,0.0,1,20.0
+Wireless,Switzerland,2,14.545,2,14.545
+Wireless,United States,2,18.18,2,18.18
+Wireline,Canada,0,0.0,1,10.0
+Wireline,China,9,47.22,8,41.665
+Wireline,"Hong Kong, China",0,0.0,1,11.11
+Wireline,Italy,0,0.0,1,11.11
+Wireline,Korea,1,10.0,0,0.0
+Wireline,Switzerland,0,0.0,1,10.0
+Wireline,Taiwan,3,15.555,2,10.0
+Wireline,United States,6,32.22,5,27.22
