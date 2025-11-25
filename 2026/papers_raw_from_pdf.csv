@@ -1,0 +1,331 @@
+session No.,subcommittee,paper no.,paper title,first author country,last author country,page
+Session 1,Plenary - Invited Papers,1.1,Advancing Horizons for AI: 8:50 AM,,,18
+Session 1,Plenary - Invited Papers,1.2,Quantum Computing – Toward Large-Scale 9:20 AM,,,18
+Session 1,Plenary - Invited Papers,1.4,Empowering the Next Wave of Silicon Engineers 11:15 AM,,,19
+Session 2,Processors,2.1,AMD Instinct MI350 Series GPUs: CDNA 4-Based 3D-Stacked 3nm,,,20
+Session 2,Processors,2.2,A Quad-Chiplet AI SoC with Full-Chip Scalable Mesh Over 16Gb/s,,,20
+Session 2,Processors,2.2,A Quad-Chiplet AI SoC with Full-Chip Scalable Mesh Over 16Gb/s,,,31
+Session 2,Processors,2.3,A 71.3mJ/Frame End-to-End Driving Processor with Flexible,,,20
+Session 2,Processors,2.3,A 71.3mJ/Frame End-to-End Driving Processor with Flexible,,,31
+Session 2,Processors,2.4,UniC-Vision: A 14.4Gb/s 7.3pJ/b Universal Vision Transformer,,,20
+Session 2,Processors,2.5,"A 1.1mm2, 14.4ns, 13.1pJ/b Forward Error Correction with",,,20
+Session 2,Processors,2.6,Spyre: An Inference-Optimized Scalable AI Accelerator for,,,21
+Session 2,Processors,2.7,Tiamat: A 98-to-134ms/Step Transformer-Based Diffusion Model,,,57
+Session 2,Processors,2.7,Tiamat: A 98-to-134ms/Step Transformer-Based Diffusion Model,,,21
+Session 2,Processors,2.8,"MADiC: A 3nm 7.4TOPS/mm2, 17.4TOPS/W Generative Diffusion",,,21
+Session 2,Processors,2.9,A 0.24mJ/Frame Quadratic Interpolation 4DGS Processor with,,,21
+Session 2,Processors,2.10,A 1286fps 0.39mJ/Frame Modeling/Rendering Uniﬁed 3D GS,,,21
+Session 2,Processors,2.10,A 1286fps 0.39mJ/Frame Modeling/Rendering Uniﬁed 3D GS,,,57
+Session 3,Wearable and Wireless Biomedical Systems,3.1,A Multimodal Biosensing System-on-Chip with Integrated,,,31
+Session 3,Wearable and Wireless Biomedical Systems,3.1,A Multimodal Biosensing System-on-Chip with Integrated,,,22
+Session 3,Wearable and Wireless Biomedical Systems,3.2,A Near-Field RF Reﬂection Transceiver ASIC for Continuous,,,31
+Session 3,Wearable and Wireless Biomedical Systems,3.2,A Near-Field RF Reﬂection Transceiver ASIC for Continuous,,,22
+Session 3,Wearable and Wireless Biomedical Systems,3.3,A Battery-Powered Hybrid Resonant Pulse-Train Generator with,,,22
+Session 3,Wearable and Wireless Biomedical Systems,3.3,A Battery-Powered Hybrid Resonant Pulse-Train Generator with,,,31
+Session 3,Wearable and Wireless Biomedical Systems,3.4,An Ultrasound-Powering TX with Standing-Wave Peak Tracking,,,31
+Session 3,Wearable and Wireless Biomedical Systems,3.4,An Ultrasound-Powering TX with Standing-Wave Peak Tracking,,,22
+Session 3,Wearable and Wireless Biomedical Systems,3.5,A Simultaneous Wireless Power and Full-Duplex Data Transfer,,,31
+Session 3,Wearable and Wireless Biomedical Systems,3.5,A Simultaneous Wireless Power and Full-Duplex Data Transfer,,,22
+Session 4,Analog Techniques & Ampliﬁers,4.1,"A 0.64mA, -108.2dB THD+N Class-D Ampliﬁer with",,,23
+Session 4,Analog Techniques & Ampliﬁers,4.2,"A -102.2dB THD+N, 92% Efﬁciency, 1.08mW Idle Power",,,23
+Session 4,Analog Techniques & Ampliﬁers,4.3,"A 0.6V 9.4 μW 1,892 μm2 Current-Pulse-Injection Crystal",,,57
+Session 4,Analog Techniques & Ampliﬁers,4.3,"A 0.6V 9.4 μW 1,892 μm2 Current-Pulse-Injection Crystal",,,23
+Session 4,Analog Techniques & Ampliﬁers,4.4,A 2.1-to-3.7ppm/°C Bandgap Voltage Reference with a,,,23
+Session 4,Analog Techniques & Ampliﬁers,4.5,A 1ppm/°C and ±0.066% 3 σ Accuracy Bandgap Reference with,,,57
+Session 4,Analog Techniques & Ampliﬁers,4.5,A 1ppm/°C and ±0.066% 3 σ Accuracy Bandgap Reference with,,,23
+Session 4,Analog Techniques & Ampliﬁers,4.6,An Integrated Voltage and Current Reference Together,,,23
+Session 4,Analog Techniques & Ampliﬁers,4.6,An Integrated Voltage and Current Reference Together,,,57
+Session 5,Sub-THz and mm-Wave Phased Arrays and Beamformers,5.1,A Formation Flight Phased-Array Transceiver for Spatial Power,,,24
+Session 5,Sub-THz and mm-Wave Phased Arrays and Beamformers,5.2,A 28GHz Frequency-Diverse Sub-Array TX with Secret Phase Keys,,,24
+Session 5,Sub-THz and mm-Wave Phased Arrays and Beamformers,5.3,"SPARTA: A Scalable, Programmable and Active mm-Wave",,,24
+Session 5,Sub-THz and mm-Wave Phased Arrays and Beamformers,5.3,"SPARTA: A Scalable, Programmable and Active mm-Wave",,,31
+Session 5,Sub-THz and mm-Wave Phased Arrays and Beamformers,5.4,A 140GHz Full-Duplex CMOS Transceiver with Metasurface-,,,24
+Session 6,Exploratory Receiver Architectures from GHz to THz,6.1,Full-Duplex RF Canceler Achieving Wideband High-SI-Power,,,25
+Session 6,Exploratory Receiver Architectures from GHz to THz,6.2,A Phased-Array-Inspired Broadband RF Signal Processor for,,,25
+Session 6,Exploratory Receiver Architectures from GHz to THz,6.3,A 2×2 10GS/s TTD BF Receiver Utilizing Charge-Based,,,57
+Session 6,Exploratory Receiver Architectures from GHz to THz,6.3,A 2×2 10GS/s TTD BF Receiver Utilizing Charge-Based,,,25
+Session 6,Exploratory Receiver Architectures from GHz to THz,6.4,A 436-to-472GHz 4-Element IF Beamforming Phased-Array,,,25
+Session 6,Exploratory Receiver Architectures from GHz to THz,6.5,A 26/28/37/39GHz Reconﬁgurable Fully Connected MIMO,,,25
+Session 7,Image Sensors and Ranging,7.1,54×42 LiDAR 3D-Stacked System-On-Chip with On-Chip Point,,,31
+Session 7,Image Sensors and Ranging,7.1,54×42 LiDAR 3D-Stacked System-On-Chip with On-Chip Point,,,26
+Session 7,Image Sensors and Ranging,7.2,VoxCAD: A 0.82-to-81.0mW Intelligent 3D-Perception dToF SoC,,,26
+Session 7,Image Sensors and Ranging,7.3,"A Multi-Range, Multi-Resolution LiDAR Sensor with",,,26
+Session 7,Image Sensors and Ranging,7.4,A 480×320 CMOS LiDAR Sensor with Tapering 1-Step,,,26
+Session 7,Image Sensors and Ranging,7.4,A 480×320 CMOS LiDAR Sensor with Tapering 1-Step,,,31
+Session 7,Image Sensors and Ranging,7.5,A 26.0mW 30fps 400x300-pixel SWIR Ge-SPAD dToF Range,,,26
+Session 7,Image Sensors and Ranging,7.6,A 128×96 Multimodal Flash LiDAR SPAD Imager with Object,,,27
+Session 7,Image Sensors and Ranging,7.7,A Fully Reconﬁgurable Hybrid SPAD Vision Sensor with 134dB,,,27
+Session 7,Image Sensors and Ranging,7.8,A 55nm Intelligent Vision SoC Achieving 346TOPS/W System,,,27
+Session 7,Image Sensors and Ranging,7.8,A 55nm Intelligent Vision SoC Achieving 346TOPS/W System,,,57
+Session 7,Image Sensors and Ranging,7.9,A 1.09e--Random-Noise 1.5μm-Pixel-Pitch 12MP Global-Shutter-,,,27
+Session 7,Image Sensors and Ranging,7.10,A 200MP 0.61 μm-Pixel-Pitch CMOS Imager with Sub-1e- Readout,,,27
+Session 7,Image Sensors and Ranging,7.10,A 200MP 0.61 μm-Pixel-Pitch CMOS Imager with Sub-1e- Readout,,,57
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.1,A 48Gb/s/lane 1.24Tb/s/mm UCIe-Compliant Die-to-Die Link Over,,,28
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.2,A 32Gb/s 12.35Tb/s/mm2 0.36pJ/b UCIe-Like Die-to-Die Interface,,,28
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.3,A 0.23pJ/b 24Gb/s Modular D2D Interface With Zero Wake Penalty,,,28
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.4,A 112Gb/s/wire Single-Ended Simultaneous Bi-Directional,,,28
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.5,A 112Gb/s 0.76pJ/b Reference-less Mixed-Signal PAM-4 CDR in,,,28
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.6,A 280mW 112Gb/s PAM-4/NRZ Transceiver for Low-Power IOs in,,,29
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.7,A 112Gb/s PAM-4 SBD Transceiver with Mismatch-Compensated,,,29
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.8,A 0.292pJ/b 56Gb/s/wire Capacitively Driven Simultaneous,,,29
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.9,A 72Gb/s/pin Single-Ended Simultaneous Bi-Directional,,,29
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.10,A 180-to-240Gb/s Analog-Intensive PAM-4 Transmitter with,,,29
+Session 8,Die-to-Die and High-Speed Electrical Transceivers,8.11,A 1.59pJ/b 112Gb/s PAM-4 and 1.06pJ/b 168Gb/s PAM-8,,,29
+Session 9,Wireless Power,9.1,A Single-Power-Link 13.56MHz Wireless Power and Data Transfer,,,30
+Session 9,Wireless Power,9.2,A 91%-Efﬁciency Single-Stage Bipolar Quad-Output Regulating,,,30
+Session 9,Wireless Power,9.3,An Output-Domain-Independent Single-Transmitter-Dual-,,,30
+Session 9,Wireless Power,9.4,A Multi-Coil Scalable Energy-Shared Wireless Power Receiver,,,30
+Session 10,Digital Processing and Circuit Techniques,10.1,"A 3nm, 400TOPS, 1080k DMIPS SoC with Chiplet Support for ASIL",,,34
+Session 10,Digital Processing and Circuit Techniques,10.1,"A 3nm, 400TOPS, 1080k DMIPS SoC with Chiplet Support for ASIL",,,32
+Session 10,Digital Processing and Circuit Techniques,10.2,A Dynamic Performance Augmentation in a 3nm-Plus Mobile CPU,,,34
+Session 10,Digital Processing and Circuit Techniques,10.3,A 2nm Clock-Edge Architecture for Processor Clock-Power,,,34
+Session 10,Digital Processing and Circuit Techniques,10.4,A 0.008mm2 16-to-1600MHz All-Digital Fractional Divider Using,,,34
+Session 10,Digital Processing and Circuit Techniques,10.5,Proactive Power Management-Based Supply Regulation with,,,34
+Session 10,Digital Processing and Circuit Techniques,10.6,A Hybrid-Bonded 12.1TOPS/mm2 56-Core DNN Processor with,,,35
+Session 10,Digital Processing and Circuit Techniques,10.6,A Hybrid-Bonded 12.1TOPS/mm2 56-Core DNN Processor with,,,32
+Session 10,Digital Processing and Circuit Techniques,10.7,A 28nm Mode-Reconﬁgurable CAM-CIM Hybrid Complete 3-SAT,,,35
+Session 10,Digital Processing and Circuit Techniques,10.8,COBI: A Degree-of-56 Column-Bipartite Densely Connected,,,35
+Session 10,Digital Processing and Circuit Techniques,10.9,SharpSAT: A Heuristic-Learning-Based SAT Accelerator Achieving,,,35
+Session 10,Digital Processing and Circuit Techniques,10.10,PCIM-SAT: A 55nm Probabilistic K-SAT Solver with p-Bit-Based,,,35
+Session 11,Pipeline and Ultra-High-Speed Data Converters,11.1,A 14b 400MS/s TDC-Assisted Pipelined-SAR ADC with,,,36
+Session 11,Pipeline and Ultra-High-Speed Data Converters,11.2,A 28nm CMOS SAR-Based Continuous-Time Pipeline ADC with,,,36
+Session 11,Pipeline and Ultra-High-Speed Data Converters,11.3,A 500MS/s 12b Pipe-SAR ADC Using a Triple-Cascode FIA with,,,36
+Session 11,Pipeline and Ultra-High-Speed Data Converters,11.4,A 13b 500MS/s 94dB-SFDR Resistive-Input Pipelined-SAR ADC,,,36
+Session 11,Pipeline and Ultra-High-Speed Data Converters,11.5,A Compact 7b 175GS/s Linearized Time-Interleaved Slope ADC,,,37
+Session 11,Pipeline and Ultra-High-Speed Data Converters,11.6,An 8b 20GS/s Time-Interleaved ADC with 2.6mW 1GS/s,,,37
+Session 11,Pipeline and Ultra-High-Speed Data Converters,11.7,A 12b 12GS/s Two-Way Interleaved Pipeline ADC with Integrated,,,37
+Session 11,Pipeline and Ultra-High-Speed Data Converters,11.8,A 14b 20GS/s RF-Sampling DAC Achieving 70.4dBc IMD3 up to,,,37
+Session 12,Frequency Synthesizers and VCOs,12.1,"A 74fs-Jitter, −59dBc-Spur Fractional-N DPLL Using a",,,38
+Session 12,Frequency Synthesizers and VCOs,12.2,A Fractional-N Digital PLL with a Supply-Insensitive DTC,,,38
+Session 12,Frequency Synthesizers and VCOs,12.3,A –66dBc-Worst-Fractional-Spur and 58fs-Jitter Fractional-N,,,38
+Session 12,Frequency Synthesizers and VCOs,12.4,"A 21.6fsrms-Jitter, -260.7dB-FoM Fractional-N PLL Enabled by",,,38
+Session 12,Frequency Synthesizers and VCOs,12.5,A 14GHz Chopper-Refolding Sampling PLL Achieving 33.8fsrms,,,39
+Session 12,Frequency Synthesizers and VCOs,12.6,A 0.65-to-1V-VDD 10.5-to-11.85GHz Fractional-N Sampling PLL,,,39
+Session 12,Frequency Synthesizers and VCOs,12.7,A 7.15-to-7.95GHz Magnetically Enhanced Feedforward,,,39
+Session 12,Frequency Synthesizers and VCOs,12.8,A 5.7mW@0.55V-to-50mW@0.9V Deeply Power-Scalable,,,39
+Session 12,Frequency Synthesizers and VCOs,12.9,A 10.2-to-16.2GHz Dual-Mode-Transformer-Based Wideband,,,39
+Session 13,Circuits for AI and AI for Circuits,13.1,"HYDAR: A 390K QPS, 1574K QPS/W Hybrid Analog/Digital",,,32
+Session 13,Circuits for AI and AI for Circuits,13.1,"HYDAR: A 390K QPS, 1574K QPS/W Hybrid Analog/Digital",,,40
+Session 13,Circuits for AI and AI for Circuits,13.2,AI-Enabled End-to-End Design in RFICs with Controllable,,,32
+Session 13,Circuits for AI and AI for Circuits,13.2,AI-Enabled End-to-End Design in RFICs with Controllable,,,40
+Session 13,Circuits for AI and AI for Circuits,13.3,Medusa: A Quantum-Inspired 200-Variable 1016-Clause Analog,,,40
+Session 13,Circuits for AI and AI for Circuits,13.4,An Inverse-Designed Passively Coupled N-Path Filter,,,40
+Session 13,Circuits for AI and AI for Circuits,13.5,A Nonintuitively Frequency-Staggered Wideband mm-Wave,,,40
+Session 14,Unusual Interconnects and Other Uses for Light,14.1,THz-TSI: A 0.33pJ/b 264Gb/s Through-Silicon Interconnect,,,41
+Session 14,Unusual Interconnects and Other Uses for Light,14.1,THz-TSI: A 0.33pJ/b 264Gb/s Through-Silicon Interconnect,,,32
+Session 14,Unusual Interconnects and Other Uses for Light,14.2,An 8λ×38Gb/s/λ 106fJ/b Optical WDM Transmitter in 45nm,,,41
+Session 14,Unusual Interconnects and Other Uses for Light,14.3,A Single-Chip Laser Diode Driver with Built-In Frequency-Sweep,,,41
+Session 14,Unusual Interconnects and Other Uses for Light,14.4,A 40Gb/s 8mW-OMA 1-to-N VCSEL Driver for Parallel and,,,32
+Session 14,Unusual Interconnects and Other Uses for Light,14.4,A 40Gb/s 8mW-OMA 1-to-N VCSEL Driver for Parallel and,,,41
+Session 14,Unusual Interconnects and Other Uses for Light,14.5,Highly-Integrated Light-Sensing System with RF Harvesting and,,,41
+Session 14,Unusual Interconnects and Other Uses for Light,14.6,Self-Programmable Twin PUFs via Photovoltaic Energy,,,41
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.1,A 2Tb 4b/Cell 6-Plane 3D-Flash Memory with 37.6Gb/mm2 Bit,,,42
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.2,A 350mV Single-Rail SRAM Using Custom-Logic-Bitcell in,,,42
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.3,An 8nm eMRAM for Auto-G1 with Read-Speed of 125MHz and,,,42
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.4,"A 16nm 168Mb Embedded STT-MRAM with 0.0249μm2 Bit-Cell,",,,42
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.5,A 3nm 0.167fJ/b 5.27Mb/mm2 Conﬁgurable TCAM with,,,42
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.6,"A 36GB 3.3TB/s HBM4 DRAM with Per-Channel TSV RDQS, Auto",,,43
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.7,"A 1cnm 14.4Gb/s/pin 16Gb LPDDR6 SDRAM with Efﬁciency Mode,",,,43
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.8,A 16Gb 12.8Gb/s LPDDR6 SDRAM with 12-DQ/Sub-Channel Wide,,,43
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.9,A 48Gb/s 24Gb GDDR7 DRAM for Mid-Range Inference AI with,,,43
+Session 15,"DRAM, SRAM, and Non-Volatile Memories",15.10,A Vertical-Cell-Transistor(VCT)-Based 4F2 DRAM with,,,43
+Session 16,"Energy Harvesting, Piezo and Chargers",16.1,PV Energy-Harvesting Interface Using Reconﬁgurable Self-Clamp,,,44
+Session 16,"Energy Harvesting, Piezo and Chargers",16.2,A Bias-Flip-Based Piezoelectric Energy Harvesting Interface with,,,44
+Session 16,"Energy Harvesting, Piezo and Chargers",16.3,A Fully Integrated Piezoelectric Energy-Harvesting Interface with,,,44
+Session 16,"Energy Harvesting, Piezo and Chargers",16.4,A One-Stage Bidirectional Rectiﬁer with Pre-Charge-Based MPPT,,,44
+Session 16,"Energy Harvesting, Piezo and Chargers",16.5,A Single-Inductor Multi-Channel Thermoelectric Energy,,,32
+Session 16,"Energy Harvesting, Piezo and Chargers",16.5,A Single-Inductor Multi-Channel Thermoelectric Energy,,,44
+Session 16,"Energy Harvesting, Piezo and Chargers",16.6,A Parameter-Free Runtime-Energy-Loss Optimizer Achieving,,,45
+Session 16,"Energy Harvesting, Piezo and Chargers",16.7,A 90.7%-Efﬁciency Piezoelectric Resonator-Based Sigma,,,45
+Session 16,"Energy Harvesting, Piezo and Chargers",16.7,A 90.7%-Efﬁciency Piezoelectric Resonator-Based Sigma,,,32
+Session 16,"Energy Harvesting, Piezo and Chargers",16.8,A Battery Charger Based On Mesh-Connection 2×CF,,,45
+Session 16,"Energy Harvesting, Piezo and Chargers",16.9,A 96.6% Single-Mode Hybrid Dual-Path Buck-Boost Converter,,,45
+Session 16,"Energy Harvesting, Piezo and Chargers",16.10,Fully Integrated mm-Scale 5G RF MIMO Harvester with -40dBm,,,45
+Session 16,"Energy Harvesting, Piezo and Chargers",16.10,Fully Integrated mm-Scale 5G RF MIMO Harvester with -40dBm,,,32
+Session 17,Highlighted Chip Releases for AI,17.1,NVIDIA GB10: SoC Built for AI Acceleration,,,46
+Session 17,Highlighted Chip Releases for AI,17.2,The STM32N6 Microcontroller: Enabling Intelligent Edge AI for,,,46
+Session 17,Highlighted Chip Releases for AI,17.2,The STM32N6 Microcontroller: Enabling Intelligent Edge AI for,,,32
+Session 17,Highlighted Chip Releases for AI,17.2,The STM32N6 Microcontroller: Enabling Intelligent Edge AI for,,,57
+Session 17,Highlighted Chip Releases for AI,17.3,"An Edge Platform Efﬁciently Serving Large-Batch LLMs,",,,46
+Session 17,Highlighted Chip Releases for AI,17.3,"An Edge Platform Efﬁciently Serving Large-Batch LLMs,",,,57
+Session 17,Highlighted Chip Releases for AI,17.3,"An Edge Platform Efﬁciently Serving Large-Batch LLMs,",,,32
+Session 17,Highlighted Chip Releases for AI,17.4,Maia AI Accelerator,,,46
+Session 18,Technology and Circuits for Domain-Speciﬁc Accelerators,18.1,A 3.19pJ/b Electro-Optical Router with 18ns Setup Frame-Level,,,47
+Session 18,Technology and Circuits for Domain-Speciﬁc Accelerators,18.2,A 22nm 1.87ms/Frame Streaming Multi-Speaker ASR Accelerator,,,47
+Session 18,Technology and Circuits for Domain-Speciﬁc Accelerators,18.3,SMoLPU: 122.1 μJ/Token Sparse MoE-Based Speculative,,,33
+Session 18,Technology and Circuits for Domain-Speciﬁc Accelerators,18.3,SMoLPU: 122.1 μJ/Token Sparse MoE-Based Speculative,,,47
+Session 18,Technology and Circuits for Domain-Speciﬁc Accelerators,18.4,SpikeRAM: A 48.1pW/Synapse/Bit Event-Driven Spiking,,,33
+Session 18,Technology and Circuits for Domain-Speciﬁc Accelerators,18.4,SpikeRAM: A 48.1pW/Synapse/Bit Event-Driven Spiking,,,47
+Session 18,Technology and Circuits for Domain-Speciﬁc Accelerators,18.5,A 28nm 47.3TFLOPs/W 894mJ/Inference Visual Autoregressive,,,47
+Session 19,"High-Voltage, Isolated and Display Power",19.1,Piggybacked SC-on-CSCR: A Modular On-Chip,,,48
+Session 19,"High-Voltage, Isolated and Display Power",19.2,A Three-Mode Single-Inductor Four-Quadrant Converter Achieving,,,48
+Session 19,"High-Voltage, Isolated and Display Power",19.3,A 94.8%-Peak-Efﬁciency Double Step-Up SIBO Converter,,,48
+Session 19,"High-Voltage, Isolated and Display Power",19.4,A Digital-Feedback Active-Gate-Driver IC for 600A 1200V SiC,,,48
+Session 19,"High-Voltage, Isolated and Display Power",19.5,A Binary-Weighted Switched-Capacitor Gate Driver IC for,,,48
+Session 19,"High-Voltage, Isolated and Display Power",19.6,A 68%-Peak-Efﬁciency Single-Transformer Multi-Output Isolated,,,49
+Session 19,"High-Voltage, Isolated and Display Power",19.7,A Hybrid Bipolar-Output Isolated Converter with +15V/–5V Outputs,,,49
+Session 19,"High-Voltage, Isolated and Display Power",19.8,A Fully Integrated Bidirectional 5-Level Isolated DC-DC Converter,,,49
+Session 19,"High-Voltage, Isolated and Display Power",19.8,A Fully Integrated Bidirectional 5-Level Isolated DC-DC Converter,,,33
+Session 19,"High-Voltage, Isolated and Display Power",19.9,A 2.15W 120V/230Vac to 5-to-12Vdc Ofﬂine Power Converter with,,,49
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.1,An Ultra-Compact Asymmetrically Load-Pulled Series Doherty,,,50
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.2,A High Back-off Efﬁciency Unequal-Stacked Doherty Power,,,50
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.3,A mm-Wave Doherty Power Ampliﬁer in a Single-Path Footprint,,,50
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.3,A mm-Wave Doherty Power Ampliﬁer in a Single-Path Footprint,,,57
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.4,"An Ultra-Compact, Inherently Resilient FR3 Source-Follower",,,50
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.4,"An Ultra-Compact, Inherently Resilient FR3 Source-Follower",,,57
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.5,A 24-to-27.5GHz Self-Adaptive Load-Modulated Balanced,,,50
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.6,A 330-to-344GHz GaN Power Ampliﬁer with Maximum-Available-,,,51
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.7,An Ultra-Compact D-Band Transceiver Front-End Based on a,,,51
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.8,A 16-to-256QAM G-Band Subharmonic Phase-Modulating,,,33
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.8,A 16-to-256QAM G-Band Subharmonic Phase-Modulating,,,51
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.9,A Compact 26/38GHz-Reconﬁgurable Dual-Band Low-Noise,,,51
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.9,A Compact 26/38GHz-Reconﬁgurable Dual-Band Low-Noise,,,33
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.10,A 214-to-242GHz Miniaturized Co-Packaged PA-Antenna Array,,,51
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.10,A 214-to-242GHz Miniaturized Co-Packaged PA-Antenna Array,,,33
+Session 20,RF Transceiver Subsystems from cm-Wave to THz,20.11,A 215GHz 8×8 Radiator-Oscillator Array with Robust Coupling,,,51
+Session 21,Sensor Interfaces,21.1,"Sub-1mV-Accuracy, 24-CH Synchronous Battery Monitoring IC",,,52
+Session 21,Sensor Interfaces,21.2,A Fully Integrated GMR Biosensor with On-Chip Coils and Sensors,,,57
+Session 21,Sensor Interfaces,21.2,A Fully Integrated GMR Biosensor with On-Chip Coils and Sensors,,,52
+Session 21,Sensor Interfaces,21.3,A Temperature- and Aging-Compensated TMR Current Sensor,,,52
+Session 21,Sensor Interfaces,21.4,A Background-Calibrated NPN-Based Temperature Sensor with,,,52
+Session 21,Sensor Interfaces,21.5,A 0.6V 625um2 Fully Stacked RC-Based Temperature Sensor,,,52
+Session 21,Sensor Interfaces,21.6,A ±60mA-Inaccuracy Low-Side Average Current Sensor with,,,53
+Session 21,Sensor Interfaces,21.7,A Battery-Free Wireless Electrochemical-Interface SoC Featuring,,,33
+Session 21,Sensor Interfaces,21.7,A Battery-Free Wireless Electrochemical-Interface SoC Featuring,,,53
+Session 21,Sensor Interfaces,21.8,A CMOS Hybrid Common-Gate Current-Integrating Sampler with,,,53
+Session 21,Sensor Interfaces,21.9,A -82.3dB THD+N 60V Fully Integrated Shunt-Resistor-Based,,,53
+Session 22,Circuits in Extreme Environments,22.1,A Cryo-CMOS Color-Center Quantum Controller with Diamond,,,54
+Session 22,Circuits in Extreme Environments,22.2,A 16-Channel Low-Power Cryo-CMOS Flux Control Pulse,,,54
+Session 22,Circuits in Extreme Environments,22.3,A Multi-Qubit Cryo-CMOS SoC with Polar-Based Electron-Spin and,,,54
+Session 22,Circuits in Extreme Environments,22.4,A Radiation-Hardened Self-Healing CMOS Imager with Online,,,54
+Session 22,Circuits in Extreme Environments,22.5,A 500kGy Radiation-Hardened 2.4GHz Wi-Fi Receiver for,,,54
+Session 23,Next-Generation Optical Transceivers,23.1,A 32Gb/s/ λ 256Gb/s/Fiber Half-Rate Bandpass-Filtered,,,55
+Session 23,Next-Generation Optical Transceivers,23.2,A 2-Channel 800Gb/s Transceiver for Coherent-Lite Applications,,,33
+Session 23,Next-Generation Optical Transceivers,23.2,A 2-Channel 800Gb/s Transceiver for Coherent-Lite Applications,,,55
+Session 23,Next-Generation Optical Transceivers,23.3,A 2×500Gb/s Monolithic Silicon-Photonic DWDM PAM-4,,,55
+Session 23,Next-Generation Optical Transceivers,23.3,A 2×500Gb/s Monolithic Silicon-Photonic DWDM PAM-4,,,33
+Session 23,Next-Generation Optical Transceivers,23.4,A 6.4Tb/s 4.2pJ/b Co-Packaged Optics ASIC with Direct-Drive,,,55
+Session 23,Next-Generation Optical Transceivers,23.4,A 6.4Tb/s 4.2pJ/b Co-Packaged Optics ASIC with Direct-Drive,,,33
+Session 23,Next-Generation Optical Transceivers,23.5,A 212Gb/s/ λ 0.91 pJ/b Direct-Drive O-Band Monolithic Coherent,,,55
+Session 23,Next-Generation Optical Transceivers,23.6,A 112Gb/s NRZ Heterodyne Detection 23ns Settled Burst-Mode,,,55
+Session 24,Displays,24.1,A 28nm CMOS 1-Chip In-Pixel Memory Backplane Circuit with,,,56
+Session 24,Displays,24.2,A 4042-PPI 10b 240Hz Digital-PWM CMOS Backplane for,,,56
+Session 24,Displays,24.3,A 144mW 161Mpixels/s Tensor Display Processor for 3D Virtual,,,56
+Session 24,Displays,24.4,A 512ch 10b Source-Driver IC with Current-Mode Auto-Zeroing,,,56
+Session 24,Displays,24.5,A 10b Display Driver IC with a Pivoting Translinear-Loop,,,56
+Session 24,Displays,24.6,A Touch-Embedded OLED Display-Driver IC with Display Noise,,,56
+Session 25,Hardware Security,25.1,HERACLES: 8192-Way SIMD Programmable Scalable,,,60
+Session 25,Hardware Security,25.1,HERACLES: 8192-Way SIMD Programmable Scalable,,,57
+Session 25,Hardware Security,25.2,A 28nm 0.48mJ/boot Torus FHE Processor for Arbitrary,,,60
+Session 25,Hardware Security,25.3,A 16nm 0.042mm2 0.66uJ/Ops Lightweight MLWE PQC KEM with,,,57
+Session 25,Hardware Security,25.3,A 16nm 0.042mm2 0.66uJ/Ops Lightweight MLWE PQC KEM with,,,60
+Session 25,Hardware Security,25.4,OmniCrypt: A 435.86M-GOPS/W Bootstrappable Multi-Scheme,,,60
+Session 25,Hardware Security,25.5,A 0.05mm2 1.19-to-7.34mW SQIsign-1D Isogeny-Based,,,60
+Session 25,Hardware Security,25.6,A 17%/27% Area-/Energy-Overhead Glitch-Transition Secure,,,61
+Session 25,Hardware Security,25.7,TinyPAD: A 166μm2/lane Variation-Tolerant Probing-Attack,,,61
+Session 25,Hardware Security,25.8,A Sub-Threshold All-nMOS Reconﬁgurable PUF with Secure,,,61
+Session 25,Hardware Security,25.9,A PVT Variation- and Attack-Tolerant Metastability-Based TRNG,,,61
+Session 25,Hardware Security,25.10,A 65nm 0.066pJ/bit Floating-Latch-Based True Random Number,,,61
+Session 26,Compute Power and Supply Modulators,26.1,Coupled-OSC-Based Converters Achieving 89.5% Peak Efﬁciency,,,62
+Session 26,Compute Power and Supply Modulators,26.2,A Compact 4Vin 93.4%-Peak-Efﬁciency 12A Load and 20mV,,,62
+Session 26,Compute Power and Supply Modulators,26.3,A Multi-Phase Hybrid Converter with Q Samplers Enabling,,,62
+Session 26,Compute Power and Supply Modulators,26.4,A 12-to-1V 90.5%-Peak-Efﬁciency 721A/cm3-Current-Density,,,62
+Session 26,Compute Power and Supply Modulators,26.5,An Inductor-at-Middle Hybrid Buck Converter with Shared,,,62
+Session 26,Compute Power and Supply Modulators,26.6,A 92.4%-Peak-Efﬁciency 48V to 0.8-to-1.6V Hybrid Converter with,,,63
+Session 26,Compute Power and Supply Modulators,26.7,A 100A 93.4%-Peak-Efﬁciency LLC Resonant Converter with an,,,63
+Session 26,Compute Power and Supply Modulators,26.8,A 1.2 μs 1-to-12V Symbol Power Tracking Supply Modulator with,,,63
+Session 26,Compute Power and Supply Modulators,26.9,A Compact Dual-Capacitor Relay SPT Supply Modulator with,,,63
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.1,A 20GHz Frequency Synthesizer with Spur-Shaping Modulator,,,64
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.2,"A 157fsrms-Jitter, –73dBc-Fractional-Spur, Calibration-Free",,,64
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.3,A 14GHz Ring-Based 3rd-Order Fractional-N PLL with 164fsrms,,,64
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.4,A 0.068mm2 8.5-to-12.7GHz Complementary Dual-Core VCO with,,,64
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.5,A 17.9-to-22.4GHz 195.6±1.3dBc/Hz FoM Quad-Core Class-F-1,,,64
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.6,A 9.7GHz Self-Linearized-VCO-Based FMCW Chirp Generator,,,65
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.7,A 40.5-to-58.5GHz 36%-Fractional-Chirp-Bandwidth,,,65
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.8,A 77GHz 8-bit CMOS Phase Shifter Adopting a Nested-Vector-,,,65
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.9,A Dual-Mode DCO-PA with a Twisted 8-Shape Inductor for BLE,,,65
+Session 27,"Frequency Generators, Multipliers, and Modulators",27.10,A 48-to-82.5GHz CMOS Split-Tail Gilbert-Cell Frequency Doubler,,,65
+Session 28,Innovations from Outside the (ISSCC) Box,28.1,Importance of GaN for 5G and Solid-State mm-Wave Circuits of,,,66
+Session 28,Innovations from Outside the (ISSCC) Box,28.2,"High-Selectivity, Tunable Filters with Zero Static Power",,,66
+Session 28,Innovations from Outside the (ISSCC) Box,28.3,Body-Interfaced Biosensors,,,66
+Session 28,Innovations from Outside the (ISSCC) Box,28.4,"The Sensing, Computing, and Devices Opportunities of",,,66
+Session 29,Biochemical Sensors for Life Sciences and Agriculture,29.1,A 48-Day-Duration Pasting Bioelectronic Device Realizing,,,67
+Session 29,Biochemical Sensors for Life Sciences and Agriculture,29.2,A 1400THz/s Ultra-Fast-Scan 14GHz EPR-on-a-Chip Based on,,,67
+Session 29,Biochemical Sensors for Life Sciences and Agriculture,29.3,A 256-Channel Event-Driven Readout for Solid-State Nanopore,,,67
+Session 29,Biochemical Sensors for Life Sciences and Agriculture,29.3,A 256-Channel Event-Driven Readout for Solid-State Nanopore,,,58
+Session 29,Biochemical Sensors for Life Sciences and Agriculture,29.4,Shape-Memory Multi-Size Micro-Cage Array on CMOS with,,,67
+Session 29,Biochemical Sensors for Life Sciences and Agriculture,29.5,A Sub-Gram Individual Plant Stress Sensor Tag for Smart Farming,,,67
+Session 29,Biochemical Sensors for Life Sciences and Agriculture,29.6,A 65nm CMOS Hydrogel-Based Dual Fluorescence Sensor for,,,58
+Session 29,Biochemical Sensors for Life Sciences and Agriculture,29.6,A 65nm CMOS Hydrogel-Based Dual Fluorescence Sensor for,,,67
+Session 30,Compute-in-Memory,30.1,A 28nm 127.54TFLOPS/W MXFP6 and 117.42TFLOPS/W MXFP8,,,58
+Session 30,Compute-in-Memory,30.1,A 28nm 127.54TFLOPS/W MXFP6 and 117.42TFLOPS/W MXFP8,,,68
+Session 30,Compute-in-Memory,30.2,A 12nm 4Mb 104.56-to-137.75TFLOPS/W Charge-Trap,,,68
+Session 30,Compute-in-Memory,30.3,A 22nm 96Mb 50.6-to-90.2TFLOPS/W Non-Linear MLC ReRAM,,,68
+Session 30,Compute-in-Memory,30.4,A 28nm 106.85TOPS/W and 77.68TFLOPS/W CIM Macro with,,,68
+Session 30,Compute-in-Memory,30.5,A 16nm 72kb 120.5TFLOPS/W Versatile-Format,,,69
+Session 30,Compute-in-Memory,30.6,A 16Mb 166.8TOPS/W Near-Memory Phase-Domain-Computing,,,69
+Session 30,Compute-in-Memory,30.7,A 1.2GHz 12.77GB/s/mm2 3D Two-DRAM-One-Logic,,,69
+Session 30,Compute-in-Memory,30.8,"A 16nm, 1Mb, 1-to-8b-Conﬁgurable 444.21TOPS/W Fully Digital",,,69
+Session 30,Compute-in-Memory,30.9,"A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital",,,58
+Session 30,Compute-in-Memory,30.9,"A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital",,,69
+Session 31,AI Accelerators,31.1,A 14.08-to-135.69Token/s ReRAM-on-Logic Stacked Outlier-Free,,,70
+Session 31,AI Accelerators,31.2,Revolver: Low-Bit GenAI Accelerator for Distilled-Model and CoT,,,70
+Session 31,AI Accelerators,31.3,A 51.6 μJ/Token Subspace-Rotation-Based Dual-Quantized,,,70
+Session 31,AI Accelerators,31.4,VARSA: A Visual Autoregressive Generation Accelerator Using,,,70
+Session 31,AI Accelerators,31.5,SoulMate: A 9.8mW Mobile Intelligence System-on-Chip with,,,58
+Session 31,AI Accelerators,31.5,SoulMate: A 9.8mW Mobile Intelligence System-on-Chip with,,,71
+Session 31,AI Accelerators,31.6,Tri-Oracle: A 17.78 μJ/Token Vision-Language Model Accelerator,,,71
+Session 31,AI Accelerators,31.7,LUT-SSM: A 99.3TFLOPS/W LUT-Based State-Space Model,,,71
+Session 31,AI Accelerators,31.8,A 28nm Speculative-Decoding LLM Processor Achieving,,,71
+Session 31,AI Accelerators,31.9,ALPhA-Vision: A Real-Time Always-On Vision Processor with,,,58
+Session 31,AI Accelerators,31.9,ALPhA-Vision: A Real-Time Always-On Vision Processor with,,,71
+Session 32,Low-Power Noise-Shaping ADCs,32.1,A 98.5dB-SNDR 250kHz-BW 1V-Supply Continuous-Time Zoom,,,72
+Session 32,Low-Power Noise-Shaping ADCs,32.2,A PVT-Robust Frequency-Scalable Fully Dynamic ΔΣ ADC with,,,72
+Session 32,Low-Power Noise-Shaping ADCs,32.3,An 85.1dB-SNDR 8MS/s Incremental Pipeline ADC with,,,72
+Session 32,Low-Power Noise-Shaping ADCs,32.4,A 103.9dB-SFDR 83.8dB-SNDR 3MHz-BW Multi-Bit,,,72
+Session 33,Time-Varying Circuit Techniques from RF to mm-Wave,33.1,A 22-to-25GHz CMOS Non-Magnetic Balanced Circulator,,,73
+Session 33,Time-Varying Circuit Techniques from RF to mm-Wave,33.2,An Inﬁnite-Loop CMOS-Compatible Isolator Enabled True,,,73
+Session 33,Time-Varying Circuit Techniques from RF to mm-Wave,33.2,An Inﬁnite-Loop CMOS-Compatible Isolator Enabled True,,,58
+Session 33,Time-Varying Circuit Techniques from RF to mm-Wave,33.3,A 6GHz Quadrature Digital Transmitter Supporting a 1GHz Signal,,,73
+Session 33,Time-Varying Circuit Techniques from RF to mm-Wave,33.4,A 4.5-to-7.2GHz Beyond Rail-to-Rail Output SCPA with 27.9dBm,,,73
+Session 33,Time-Varying Circuit Techniques from RF to mm-Wave,33.5,"A 0.6-to-0.9GHz, 28.06dBm Pout, 43.73% SE, 6-Phase",,,73
+Session 33,Time-Varying Circuit Techniques from RF to mm-Wave,33.6,"A Frequency-Translated, 1-to-5GHz Centred, All-Passive,",,,73
+Session 34,Integrated Radar and UWB Transceivers from Microwave to Sub-THz,34.1,A 128mW 2×4 Radar-on-Chip with Forward- ΔΣ DPLL-Locked,,,58
+Session 34,Integrated Radar and UWB Transceivers from Microwave to Sub-THz,34.1,A 128mW 2×4 Radar-on-Chip with Forward- ΔΣ DPLL-Locked,,,74
+Session 34,Integrated Radar and UWB Transceivers from Microwave to Sub-THz,34.2,"Compact, Low-Power 60-and-77GHz 4T/4R Multi-Mode FMCW",,,74
+Session 34,Integrated Radar and UWB Transceivers from Microwave to Sub-THz,34.3,A 234-to-252GHz Dual-Polarized Transceiver Using Antenna-in-,,,58
+Session 34,Integrated Radar and UWB Transceivers from Microwave to Sub-THz,34.3,A 234-to-252GHz Dual-Polarized Transceiver Using Antenna-in-,,,74
+Session 34,Integrated Radar and UWB Transceivers from Microwave to Sub-THz,34.4,A 1.6-to-3.8GHz Reconﬁgurable FMCW Radar SoC with 81.5%,,,58
+Session 34,Integrated Radar and UWB Transceivers from Microwave to Sub-THz,34.4,A 1.6-to-3.8GHz Reconﬁgurable FMCW Radar SoC with 81.5%,,,74
+Session 34,Integrated Radar and UWB Transceivers from Microwave to Sub-THz,34.5,A 0.0523mm2 11.4mW IEEE 802.15.4a/z/ab Compatible,,,58
+Session 34,Integrated Radar and UWB Transceivers from Microwave to Sub-THz,34.5,A 0.0523mm2 11.4mW IEEE 802.15.4a/z/ab Compatible,,,74
+Session 35,Low Power Wireless Transceivers for Localization and Communications,35.1,CANCEL: A Cancellation-Aided Ambient IoT Nanopowered,,,75
+Session 35,Low Power Wireless Transceivers for Localization and Communications,35.2,A 20mg Battery-Free Crystal-Less Miniaturized TX System for,,,75
+Session 35,Low Power Wireless Transceivers for Localization and Communications,35.3,A 0.052mm2 Blocker-Tolerant Non-Uniform Current Sub-Sampling,,,75
+Session 35,Low Power Wireless Transceivers for Localization and Communications,35.4,A NearLink 2.0 Compliant Dual-Band RF Transceiver for Smart,,,75
+Session 35,Low Power Wireless Transceivers for Localization and Communications,35.5,Fully Integrated Backscattered WiFi 802.11b Transmitter with,,,58
+Session 35,Low Power Wireless Transceivers for Localization and Communications,35.5,Fully Integrated Backscattered WiFi 802.11b Transmitter with,,,75
+Session 36,Neural and Biomedical Interfaces,36.1,ReFIND: A Resolution-Reconﬁgurable Bio-Signal Classiﬁcation,,,58
+Session 36,Neural and Biomedical Interfaces,36.1,ReFIND: A Resolution-Reconﬁgurable Bio-Signal Classiﬁcation,,,76
+Session 36,Neural and Biomedical Interfaces,36.2,A Neural Interface SoC for Smart Glasses with Low-Power Neural,,,76
+Session 36,Neural and Biomedical Interfaces,36.2,A Neural Interface SoC for Smart Glasses with Low-Power Neural,,,58
+Session 36,Neural and Biomedical Interfaces,36.3,A 16.4nJ/Class Patient-Independent Prototype-Based,,,76
+Session 36,Neural and Biomedical Interfaces,36.4,ANP-OT: A 0.17nW/Synapse 0.46pJ/SOP Neuromorphic Olfactory,,,76
+Session 36,Neural and Biomedical Interfaces,36.5,A 185.6dB-FOMDR 180.3dB-FOMSNDR 10.64-NEF NS-SAR-ADC with,,,76
+Session 36,Neural and Biomedical Interfaces,36.6,Sparsity-Aware Neural Interface with CIM-Based Predictive,,,77
+Session 36,Neural and Biomedical Interfaces,36.6,Sparsity-Aware Neural Interface with CIM-Based Predictive,,,58
+Session 36,Neural and Biomedical Interfaces,36.7,A 90.7%-Efﬁciency Hybrid Optogenetic Stimulation System with,,,77
+Session 36,Neural and Biomedical Interfaces,36.8,An 80×80 μm2/Pixel 55.48dB-Wide-DR 400-Pixel Subretinal,,,77
+Session 36,Neural and Biomedical Interfaces,36.9,A CMOS Neural Probe with 1280 Electrodes and 88 Emission Sites,,,77
+Session 36,Neural and Biomedical Interfaces,36.10,A 43.8-to-662.0 μW 27.5-to-878.9fps Frame-Rate-Scalable,,,77
+Session 36,Neural and Biomedical Interfaces,36.11,A 0.62 μW/sensor 82fps Time-to-Digital Impedance Measurement,,,77
+Session 36,Neural and Biomedical Interfaces,36.11,A 0.62 μW/sensor 82fps Time-to-Digital Impedance Measurement,,,58
+Session 37,Memory Interface,37.1,A 72Gb/s/pin Single-Ended Driver-Cooperative Coded PAM3,,,78
+Session 37,Memory Interface,37.2,A 47.0Tb/s/mm 112Gb/s/pin PAM4 Single-Ended Transceiver,,,78
+Session 37,Memory Interface,37.3,A 2nm All-Digital 14.4Gb/s/pin LPDDR6 PHY with Quarter-Rate,,,78
+Session 37,Memory Interface,37.4,"A 100Gb/s Aggregate 4-lane, 1.92pJ/b Single-Ended NRZ",,,78
+Session 37,Memory Interface,37.5,A 16Gb/s/pin 0.51pJ/bit Single-Ended NRZ Transceiver with,,,78
+Session 37,Memory Interface,37.6,A 0.092pJ/b and 7.7fJ/b/dB Cross-Self-Referenced,,,79
+Session 37,Memory Interface,37.7,A 12.8Gb/s Parallel Receiver with a One-Way Self-Training,,,79
+Session 37,Memory Interface,37.8,A 0.87pJ/b 17Gb/s/pin Parallel Receiver with a Local DQS,,,79
+Session 37,Memory Interface,37.9,A 14Gb/s/pin 0.163pJ/b DQ Receiver for HBM with Baud-Rate,,,79

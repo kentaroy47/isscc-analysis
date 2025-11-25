@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISSCC Country Share Analysis (2025 & 2026)</title>
+    <title>ISSCC 2025 Country Share Analysis</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
     <style>
@@ -19,23 +19,12 @@
         <div class="max-w-7xl mx-auto">
             <header class="mb-8 text-center">
                 <h1 class="text-4xl font-bold text-slate-800 mb-2">
-                    ISSCC Country Share Analysis (2025 & 2026)
+                    ISSCC 2025 Country Share Analysis
                 </h1>
                 <p class="text-slate-600">
                     Conference Papers by Country
                     <span id="subcommittee-name" class="ml-2 font-semibold text-blue-600"></span>
                 </p>
-                <div class="mt-4 flex justify-center">
-                    <div class="w-full max-w-xs">
-                        <label class="block text-sm font-medium text-slate-700 mb-2 text-left">
-                            Dataset
-                        </label>
-                        <select id="dataset-select" class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                            <option value="2025">ISSCC 2025 Results</option>
-                            <option value="2026">ISSCC 2026 Results</option>
-                        </select>
-                    </div>
-                </div>
             </header>
 
             <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
@@ -92,7 +81,7 @@
             </div>
 
             <footer class="text-center text-sm text-slate-500 mt-8">
-                <p>ISSCC 2025 & 2026 Country Share Analysis Dashboard</p>
+                <p>ISSCC 2025 Country Share Analysis Dashboard</p>
             </footer>
         </div>
     </div>
@@ -104,7 +93,7 @@
             '#06B6D4', '#D946EF', '#F43F5E', '#22D3EE', '#A3E635'
         ];
 
-        const CSV_DATA_2025 =  `subcommittee,country,first_author_count,first_author_share(%),last_author_count,last_author_share(%)
+        const CSV_DATA = `subcommittee,country,first_author_count,first_author_share(%),last_author_count,last_author_share(%)
 (Unknown),Canada,0,0.0,1,3.85
 (Unknown),China,9,34.62,8,30.77
 (Unknown),Finland,0,0.0,1,3.85
@@ -224,118 +213,9 @@ Wireline,Switzerland,0,0.0,1,10.0
 Wireline,Taiwan,3,15.555,2,10.0
 Wireline,United States,6,32.22,5,27.22`;
 
-        const CSV_DATA_2026 = `subcommittee,country,first_author_count,first_author_share(%),last_author_count,last_author_share(%)
-AI Accelerators,China,4,44.44444444444444,4,44.44444444444444
-AI Accelerators,Korea,4,44.44444444444444,4,44.44444444444444
-AI Accelerators,United States,1,11.11111111111111,1,11.11111111111111
-Analog Techniques & Ampliﬁers,China,5,83.33333333333334,5,83.33333333333334
-Analog Techniques & Ampliﬁers,The Netherlands,1,16.666666666666664,1,16.666666666666664
-Biochemical Sensors for Life Sciences and Agriculture,Belgium,1,16.666666666666664,1,16.666666666666664
-Biochemical Sensors for Life Sciences and Agriculture,China,1,16.666666666666664,1,16.666666666666664
-Biochemical Sensors for Life Sciences and Agriculture,France,1,16.666666666666664,1,16.666666666666664
-Biochemical Sensors for Life Sciences and Agriculture,Japan,1,16.666666666666664,1,16.666666666666664
-Biochemical Sensors for Life Sciences and Agriculture,Korea,1,16.666666666666664,1,16.666666666666664
-Biochemical Sensors for Life Sciences and Agriculture,United States,1,16.666666666666664,1,16.666666666666664
-Circuits for AI and AI for Circuits,China,3,60.0,3,60.0
-Circuits for AI and AI for Circuits,Japan,1,20.0,1,20.0
-Circuits for AI and AI for Circuits,United States,1,20.0,1,20.0
-Data Converters for Wireline and Low Power IoT,China,2,50.0,2,50.0
-Data Converters for Wireline and Low Power IoT,Singapore,1,25.0,1,25.0
-Data Converters for Wireline and Low Power IoT,United States,1,25.0,1,25.0
-DRAM, SRAM, and Non-Volatile Memories,Belgium,1,6.25,1,6.25
-DRAM, SRAM, and Non-Volatile Memories,China,6,37.5,6,37.5
-DRAM, SRAM, and Non-Volatile Memories,Germany,1,6.25,1,6.25
-DRAM, SRAM, and Non-Volatile Memories,India,1,6.25,1,6.25
-DRAM, SRAM, and Non-Volatile Memories,Italy,1,6.25,1,6.25
-DRAM, SRAM, and Non-Volatile Memories,Japan,1,6.25,1,6.25
-DRAM, SRAM, and Non-Volatile Memories,Korea,4,25.0,4,25.0
-DRAM, SRAM, and Non-Volatile Memories,Singapore,1,6.25,1,6.25
-DRAM, SRAM, and Non-Volatile Memories,United States,1,6.25,1,6.25
-Energy-Efﬁcient and Flexible Architectures for AI,China,1,20.0,1,20.0
-Energy-Efﬁcient and Flexible Architectures for AI,Japan,1,20.0,1,20.0
-Energy-Efﬁcient and Flexible Architectures for AI,Korea,3,60.0,3,60.0
-Energy-Efﬁcient DC-DC Converters,China,4,44.44444444444444,4,44.44444444444444
-Energy-Efﬁcient DC-DC Converters,Korea,2,22.22222222222222,2,22.22222222222222
-Energy-Efﬁcient DC-DC Converters,The Netherlands,2,22.22222222222222,2,22.22222222222222
-Energy-Efﬁcient DC-DC Converters,United States,1,11.11111111111111,1,11.11111111111111
-Energy-Efﬁcient Neural Interface and Biomedical Implants,China,1,10.0,1,10.0
-Energy-Efﬁcient Neural Interface and Biomedical Implants,Germany,1,10.0,1,10.0
-Energy-Efﬁcient Neural Interface and Biomedical Implants,Japan,1,10.0,1,10.0
-Energy-Efﬁcient Neural Interface and Biomedical Implants,Korea,3,30.0,3,30.0
-Energy-Efﬁcient Neural Interface and Biomedical Implants,Switzerland,1,10.0,1,10.0
-Energy-Efﬁcient Neural Interface and Biomedical Implants,United Kingdom,1,10.0,1,10.0
-Energy-Efﬁcient Neural Interface and Biomedical Implants,United States,2,20.0,2,20.0
-Frequency Synthesizers,China,5,50.0,5,50.0
-Frequency Synthesizers,France,1,10.0,1,10.0
-Frequency Synthesizers,Japan,1,10.0,1,10.0
-Frequency Synthesizers,Korea,2,20.0,2,20.0
-Frequency Synthesizers,Switzerland,1,10.0,1,10.0
-Invited Industry,China,1,12.5,1,12.5
-Invited Industry,Germany,1,12.5,1,12.5
-Invited Industry,India,1,12.5,1,12.5
-Invited Industry,Japan,1,12.5,1,12.5
-Invited Industry,Korea,1,12.5,1,12.5
-Invited Industry,United States,2,25.0,2,25.0
-Low Power Wireless Transceivers for Localization and Communications,China,1,20.0,1,20.0
-Low Power Wireless Transceivers for Localization and Communications,France,1,20.0,1,20.0
-Low Power Wireless Transceivers for Localization and Communications,Japan,1,20.0,1,20.0
-Low Power Wireless Transceivers for Localization and Communications,Korea,1,20.0,1,20.0
-Low Power Wireless Transceivers for Localization and Communications,United States,1,20.0,1,20.0
-Mixed-Signal Circuits for Image Sensors,China,2,40.0,2,40.0
-Mixed-Signal Circuits for Image Sensors,Japan,2,40.0,2,40.0
-Mixed-Signal Circuits for Image Sensors,United States,1,20.0,1,20.0
-Next-Generation Optical Transceivers,China,1,33.33333333333333,1,33.33333333333333
-Next-Generation Optical Transceivers,Germany,1,33.33333333333333,1,33.33333333333333
-Next-Generation Optical Transceivers,United States,1,33.33333333333333,1,33.33333333333333
-Pipeline and Ultra-High-Speed Data Converters,China,3,75.0,3,75.0
-Pipeline and Ultra-High-Speed Data Converters,Japan,1,25.0,1,25.0
-Plenary - Invited Papers,Switzerland,1,33.33333333333333,1,33.33333333333333
-Plenary - Invited Papers,Taiwan,1,33.33333333333333,1,33.33333333333333
-Plenary - Invited Papers,United States,1,33.33333333333333,1,33.33333333333333
-Power Conversion for Mobile and High-Performance Processors,China,4,66.66666666666666,4,66.66666666666666
-Power Conversion for Mobile and High-Performance Processors,Germany,1,16.666666666666664,1,16.666666666666664
-Power Conversion for Mobile and High-Performance Processors,Switzerland,1,16.666666666666664,1,16.666666666666664
-Power Electronics Converters for Wide Supply Range and High Power,China,2,33.33333333333333,2,33.33333333333333
-Power Electronics Converters for Wide Supply Range and High Power,Korea,2,33.33333333333333,2,33.33333333333333
-Power Electronics Converters for Wide Supply Range and High Power,The Netherlands,1,16.666666666666664,1,16.666666666666664
-Power Electronics Converters for Wide Supply Range and High Power,United States,1,16.666666666666664,1,16.666666666666664
-Processors,China,3,42.857142857142854,3,42.857142857142854
-Processors,Japan,1,14.285714285714285,1,14.285714285714285
-Processors,Korea,1,14.285714285714285,1,14.285714285714285
-Processors,United States,2,28.57142857142857,2,28.57142857142857
-RF Transceiver Subsystems from cm-Wave to THz,China,2,33.33333333333333,2,33.33333333333333
-RF Transceiver Subsystems from cm-Wave to THz,Japan,1,16.666666666666664,1,16.666666666666664
-RF Transceiver Subsystems from cm-Wave to THz,Korea,1,16.666666666666664,1,16.666666666666664
-RF Transceiver Subsystems from cm-Wave to THz,Switzerland,1,16.666666666666664,1,16.666666666666664
-RF Transceiver Subsystems from cm-Wave to THz,United States,1,16.666666666666664,1,16.666666666666664
-Sensor Interfaces,China,3,60.0,3,60.0
-Sensor Interfaces,Japan,1,20.0,1,20.0
-Sensor Interfaces,United States,1,20.0,1,20.0
-Sub-THz and mm-Wave Phased Arrays and Beamformers,China,3,75.0,3,75.0
-Sub-THz and mm-Wave Phased Arrays and Beamformers,Korea,1,25.0,1,25.0
-Technology and Circuits for Domain-Speciﬁc Accelerators,China,3,75.0,3,75.0
-Technology and Circuits for Domain-Speciﬁc Accelerators,Japan,1,25.0,1,25.0
-Time-Varying Circuit Techniques from RF to mm-Wave,China,2,66.66666666666666,2,66.66666666666666
-Time-Varying Circuit Techniques from RF to mm-Wave,Germany,1,33.33333333333333,1,33.33333333333333
-Towards Better Performances and Integration for Outphasing PAs,China,2,66.66666666666666,2,66.66666666666666
-Towards Better Performances and Integration for Outphasing PAs,Japan,1,33.33333333333333,1,33.33333333333333
-Unusual Interconnects and Other Uses for Light,China,1,33.33333333333333,1,33.33333333333333
-Unusual Interconnects and Other Uses for Light,Ireland,1,33.33333333333333,1,33.33333333333333
-Unusual Interconnects and Other Uses for Light,The Netherlands,1,33.33333333333333,1,33.33333333333333
-Wearable and Wireless Biomedical Systems,China,1,20.0,1,20.0
-Wearable and Wireless Biomedical Systems,Germany,1,20.0,1,20.0
-Wearable and Wireless Biomedical Systems,Japan,1,20.0,1,20.0
-Wearable and Wireless Biomedical Systems,Korea,1,20.0,1,20.0
-Wearable and Wireless Biomedical Systems,United States,1,20.0,1,20.0
-Wireless Power,China,1,20.0,1,20.0
-Wireless Power,France,1,20.0,1,20.0
-Wireless Power,Japan,1,20.0,1,20.0
-Wireless Power,Korea,1,20.0,1,20.0
-Wireless Power,United States,1,20.0,1,20.0`;
-
-        // Parse CSV into data structure
-        function processData(csvText) {
-            const lines = csvText.trim().split('\n');
+        // データを処理
+        function processData() {
+            const lines = CSV_DATA.trim().split('\n');
             const subcommitteeMap = {};
             
             for (let i = 1; i < lines.length; i++) {
@@ -375,7 +255,7 @@ Wireless Power,United States,1,20.0,1,20.0`;
                 countries
             }));
             
-            // Compute overall
+            // Overall計算
             const countryMap = {};
             subcommittees.forEach(sub => {
                 sub.countries.forEach(row => {
@@ -404,29 +284,18 @@ Wireless Power,United States,1,20.0,1,20.0`;
             return { overall, subcommittees };
         }
 
-        const yearData = {
-            "2025": processData(CSV_DATA_2025),
-            "2026": processData(CSV_DATA_2026)
-        };
-        let currentYear = "2025";
-        let data = yearData[currentYear];
+        const data = processData();
         let chart = null;
 
         // ドロップダウンを初期化
-        const datasetSelect = document.getElementById('dataset-select');
         const viewSelect = document.getElementById('view-select');
-
-        function populateViewOptions() {
-            viewSelect.innerHTML = '<option value="overall">Overall</option>';
-            data.subcommittees.forEach(sub => {
-                const option = document.createElement('option');
-                option.value = sub.name;
-                option.textContent = sub.name;
-                viewSelect.appendChild(option);
-            });
-        }
-
-        populateViewOptions();
+        viewSelect.innerHTML = '<option value="overall">Overall</option>';
+        data.subcommittees.forEach(sub => {
+            const option = document.createElement('option');
+            option.value = sub.name;
+            option.textContent = sub.name;
+            viewSelect.appendChild(option);
+        });
 
         // 更新関数
         function updateView() {
@@ -443,20 +312,20 @@ Wireless Power,United States,1,20.0,1,20.0`;
                 document.getElementById('subcommittee-name').textContent = '- ' + selectedView;
             }
             
-            const countField = authorType === 'first' ? 'firstAuthorCount' : 'lastAuthorCount';
+            const count = authorType === 'first' ? 'firstAuthorCount' : 'lastAuthorCount';
             
-            // Recalculate shares from counts
-            const totalCount = currentData.reduce((sum, d) => sum + d[countField], 0);
+            // countからshareを再計算
+            const totalCount = currentData.reduce((sum, d) => sum + d[count], 0);
             const dataWithRecalculatedShare = currentData.map(d => ({
                 ...d,
-                calculatedShare: totalCount > 0 ? (d[countField] / totalCount * 100) : 0
+                calculatedShare: totalCount > 0 ? (d[count] / totalCount * 100) : 0
             }));
             
             const chartData = dataWithRecalculatedShare
-                .filter(d => d[countField] > 0)
+                .filter(d => d[count] > 0)
                 .sort((a, b) => b.calculatedShare - a.calculatedShare);
             
-            // Update chart
+            // チャート更新
             if (chart) {
                 chart.destroy();
             }
@@ -500,7 +369,7 @@ Wireless Power,United States,1,20.0,1,20.0`;
                 }
             });
             
-            // Update table
+            // テーブル更新
             const tableBody = document.getElementById('table-body');
             tableBody.innerHTML = '';
             chartData.forEach((row, index) => {
@@ -509,25 +378,18 @@ Wireless Power,United States,1,20.0,1,20.0`;
                 tr.innerHTML = `
                     <td class="px-4 py-3 text-sm text-slate-600">${index + 1}</td>
                     <td class="px-4 py-3 text-sm font-medium text-slate-800">${row.country}</td>
-                    <td class="px-4 py-3 text-sm text-slate-600 text-right">${row[countField]}</td>
+                    <td class="px-4 py-3 text-sm text-slate-600 text-right">${row[count]}</td>
                     <td class="px-4 py-3 text-sm text-slate-600 text-right">${row.calculatedShare.toFixed(2)}%</td>
                 `;
                 tableBody.appendChild(tr);
             });
         }
 
-        // Event listeners
-        datasetSelect.addEventListener('change', () => {
-            currentYear = datasetSelect.value;
-            data = yearData[currentYear];
-            populateViewOptions();
-            updateView();
-        });
-
+        // イベントリスナー
         viewSelect.addEventListener('change', updateView);
         document.getElementById('author-select').addEventListener('change', updateView);
 
-        // Initial render
+        // 初期表示
         updateView();
     </script>
 </body>
