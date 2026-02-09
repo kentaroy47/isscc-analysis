@@ -391,15 +391,16 @@ Wireless Power,United States,1,20.0,1,20.0`;
                 });
             });
             
-            const overall = Object.values(countryMap).map(c => {
-                const totalFirst = Object.values(countryMap).reduce((sum, x) => sum + x.firstAuthorCount, 0);
-                const totalLast = Object.values(countryMap).reduce((sum, x) => sum + x.lastAuthorCount, 0);
-                return {
-                    ...c,
-                    firstAuthorShare: totalFirst > 0 ? (c.firstAuthorCount / totalFirst * 100) : 0,
-                    lastAuthorShare: totalLast > 0 ? (c.lastAuthorCount / totalLast * 100) : 0
-                };
-            }).filter(c => c.firstAuthorCount > 0 || c.lastAuthorCount > 0);
+            // Calculate totals once (not inside the map loop)
+            const countries = Object.values(countryMap);
+            const totalFirst = countries.reduce((sum, x) => sum + x.firstAuthorCount, 0);
+            const totalLast = countries.reduce((sum, x) => sum + x.lastAuthorCount, 0);
+
+            const overall = countries.map(c => ({
+                ...c,
+                firstAuthorShare: totalFirst > 0 ? (c.firstAuthorCount / totalFirst * 100) : 0,
+                lastAuthorShare: totalLast > 0 ? (c.lastAuthorCount / totalLast * 100) : 0
+            })).filter(c => c.firstAuthorCount > 0 || c.lastAuthorCount > 0);
             
             return { overall, subcommittees };
         }
@@ -445,16 +446,26 @@ Wireless Power,United States,1,20.0,1,20.0`;
             
             const countField = authorType === 'first' ? 'firstAuthorCount' : 'lastAuthorCount';
             
-            // Recalculate shares from counts
+            // Recalculate shares from counts with proper rounding to sum to 100%
             const totalCount = currentData.reduce((sum, d) => sum + d[countField], 0);
-            const dataWithRecalculatedShare = currentData.map(d => ({
+            const filteredData = currentData.filter(d => d[countField] > 0);
+
+            // Calculate raw shares and round to 2 decimal places
+            let chartData = filteredData.map(d => ({
                 ...d,
-                calculatedShare: totalCount > 0 ? (d[countField] / totalCount * 100) : 0
-            }));
-            
-            const chartData = dataWithRecalculatedShare
-                .filter(d => d[countField] > 0)
-                .sort((a, b) => b.calculatedShare - a.calculatedShare);
+                calculatedShare: totalCount > 0 ? Math.round(d[countField] / totalCount * 10000) / 100 : 0
+            })).sort((a, b) => b.calculatedShare - a.calculatedShare);
+
+            // Adjust the smallest share so total equals exactly 100%
+            if (chartData.length > 0) {
+                const currentSum = chartData.reduce((sum, d) => sum + d.calculatedShare, 0);
+                const diff = Math.round((100 - currentSum) * 100) / 100;
+                if (diff !== 0) {
+                    // Add the difference to the last (smallest) item and re-round to avoid floating point issues
+                    chartData[chartData.length - 1].calculatedShare =
+                        Math.round((chartData[chartData.length - 1].calculatedShare + diff) * 100) / 100;
+                }
+            }
             
             // Update chart
             if (chart) {
@@ -467,7 +478,7 @@ Wireless Power,United States,1,20.0,1,20.0`;
                 data: {
                     labels: chartData.map(d => d.country),
                     datasets: [{
-                        data: chartData.map(d => d.calculatedShare.toFixed(2)),
+                        data: chartData.map(d => d.calculatedShare),
                         backgroundColor: COLORS
                     }]
                 },
@@ -481,7 +492,7 @@ Wireless Power,United States,1,20.0,1,20.0`;
                                 generateLabels: function(chart) {
                                     const data = chart.data;
                                     return data.labels.map((label, i) => ({
-                                        text: label + ': ' + data.datasets[0].data[i] + '%',
+                                        text: label + ': ' + data.datasets[0].data[i].toFixed(2) + '%',
                                         fillStyle: data.datasets[0].backgroundColor[i],
                                         hidden: false,
                                         index: i
@@ -492,7 +503,7 @@ Wireless Power,United States,1,20.0,1,20.0`;
                         tooltip: {
                             callbacks: {
                                 label: function(context) {
-                                    return context.label + ': ' + context.parsed + '%';
+                                    return context.label + ': ' + context.parsed.toFixed(2) + '%';
                                 }
                             }
                         }
